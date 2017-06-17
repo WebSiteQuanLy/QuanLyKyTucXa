@@ -21,10 +21,13 @@ Thông tin tổng quan
 
 Phát biểu vấn đề
 
+	Với số lượng học sinh hàng năm tăng lên không ngừng, Trường tiểu học số 1 Bình Châu có nhu cầu cải tiến việc tự động lưu trữ, tìm kiếm và in ấn các báo cáo nhằm đáp ứng được một khối lượng lớn về xử lí thông tin và tính chính xác của thông tin. Sự can thiệp của hệ thống quản lí điểm học sinh sẽ mang đến hiệu quả hoạt động cao hơn trong công tác quản lí của trường Trường tiểu học số 1 Bình Châu.
+
 Hệ thống quản lý điểm được xây dựng hướng đến các đối tượng
 <ul>
   <li>Người quản trị hệ thống</li>
   <li>Cán bộ quản lý</li>
+  <li>Người dùng</li>
 </ul>
 Hệ thống mới sẽ thu thập tất cả các thông tin về học sinh, giáo viên, môn học, điểm…
 Lập danh sách, báo biểu…nhằm giúp cho cán bộ quản lí nắm rõ thông tin cần thiết.
