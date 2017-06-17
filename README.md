@@ -29,6 +29,15 @@ Hệ thống quản lý điểm được xây dựng hướng đến các đối
   <li>Cán bộ quản lý</li>
   <li>Người dùng</li>
 </ul>
+Lợi ích mang lại:
+<ul>
+  <li>Tạo sự tiện dụng, nhanh chóng và thoải mái cho các giáo viên có trách nhiệm quản lí</li>
+  <li>Tự động hóa cho công tác quản lí của trường tạo nên tính chuyên nghiệp cho việc quản lí thông tin</li>
+  <li>Tiết kiệm được thời gian và chi phí</li>
+
+</ul>
+
+
 Hệ thống mới sẽ thu thập tất cả các thông tin về học sinh, giáo viên, môn học, điểm…
 Lập danh sách, báo biểu…nhằm giúp cho cán bộ quản lí nắm rõ thông tin cần thiết.
 
