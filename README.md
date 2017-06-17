@@ -37,7 +37,17 @@ Lợi ích mang lại:
 
 </ul>
 
+Các bước thực hiện để hoàn thành dự án:
+<ul>
+  <li>Lập kế hoạch phát triển hệ thống</li>
+  <li>Phân tích hệ thống</li>
+  <li>Thiết kế</li>
+  <li>Cài đặt</li>
+  <li>Kiểm tra</li>
+  <li>Biên soạn tài liệu</li>
 
+</ul>
+	
 Hệ thống mới sẽ thu thập tất cả các thông tin về học sinh, giáo viên, môn học, điểm…
 Lập danh sách, báo biểu…nhằm giúp cho cán bộ quản lí nắm rõ thông tin cần thiết.
 
