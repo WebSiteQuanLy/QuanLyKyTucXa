@@ -47,7 +47,14 @@ Các bước thực hiện để hoàn thành dự án:
   <li>Biên soạn tài liệu</li>
 
 </ul>
-	
+
+Rằng buộc tổng quan hệ thống
+<ul>
+  <li>Không ảnh hưởng đến cơ cấu tổ chức và các hệ thống khác của nhà trường</li>
+  <li>Website sau khi triển khai phải đáp ứng được nhu cầu tự động 50% số lượng công việc liên quan</li>
+  <li>Dữ liệu phải đúng thực tế và phải cập nhật thường xuyên</li>
+</ul>
+		
 Hệ thống mới sẽ thu thập tất cả các thông tin về học sinh, giáo viên, môn học, điểm…
 Lập danh sách, báo biểu…nhằm giúp cho cán bộ quản lí nắm rõ thông tin cần thiết.
 
