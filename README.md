@@ -15,6 +15,12 @@ Phạm vi
 
 Thông tin tổng quan
 
+<ul>
+  <li>Tên dự án: Website Quản lí điểm Trường tiểu học số 1 Bình Châu</li>
+</ul>
+
+Phát biểu vấn đề
+
 Hệ thống quản lý điểm được xây dựng hướng đến các đối tượng
 <ul>
   <li>Người quản trị hệ thống</li>
