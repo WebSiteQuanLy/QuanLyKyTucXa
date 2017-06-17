@@ -11,6 +11,10 @@
 
 ## MÔ TẢ DỰ ÁN
 
+Phạm vi
+
+Thông tin tổng quan
+
 Hệ thống quản lý điểm được xây dựng hướng đến các đối tượng
 <ul>
   <li>Người quản trị hệ thống</li>
