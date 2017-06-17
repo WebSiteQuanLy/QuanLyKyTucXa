@@ -21,7 +21,7 @@ Thông tin tổng quan
 
 Phát biểu vấn đề
 
-	Với số lượng học sinh hàng năm tăng lên không ngừng, Trường tiểu học số 1 Bình Châu có nhu cầu cải tiến việc tự động lưu trữ, tìm kiếm và in ấn các
+Với số lượng học sinh hàng năm tăng lên không ngừng, Trường tiểu học số 1 Bình Châu có nhu cầu cải tiến việc tự động lưu trữ, tìm kiếm và in ấn các
 báo cáo nhằm đáp ứng được một khối lượng lớn về xử lí thông tin và tính chính xác của thông tin. Sự can thiệp của hệ thống quản lí điểm học sinh sẽ mang đến hiệu 
 quả hoạt động cao hơn trong công tác quản lí của trường Trường tiểu học số 1 Bình Châu.
 
