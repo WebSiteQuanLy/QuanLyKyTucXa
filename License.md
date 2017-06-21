@@ -1,5 +1,9 @@
 ﻿## Giấy phép của MIT (MIT)
-
+<ul>
+<li> Visual Studio 2013 (https://msdn.microsoft.com/en-us/library/dd831853(v=vs.120).aspx)</li>
+<li> Visual Studio Community 2013 (https://www.visualstudio.com/en-us/news/releasenotes/vs2013-community-vs)</li>
+<li> DB2 (https://www.ibm.com/analytics/us/en/technology/db2/#db2-featured-products)</li>
+</ul>
 <p align="center"><img src="http://static.congnghe.vn/tinmoi/store/techmag/thumb/21062016/215/them-cong-cu-stickies-ghi-chu-moi-tren-windows-10-2037549.jpg.600.0.jpg"></p>
 
 <ul>
