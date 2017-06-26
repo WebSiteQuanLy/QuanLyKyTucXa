@@ -1,0 +1,8 @@
+﻿Phiên bản Website Quản lý học sinh Trường tiểu học số 1 Bình Châu 
+//
+Hiện tại chỉ tồn tại một phiên bản là phiên bản đầu tiên.
+//
+Bản quyền thuộc về Ngô Mậu Bảo & Nguyễn Thị Mỹ Linh
+Được cấp phép theo giấy phép của MIT, có trường học tái phân phối
+thì phải được tải phân phối các tập tin nhưng phải dữ lại thông báo bản quyền ở trên.
+//
