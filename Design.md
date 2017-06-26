@@ -86,6 +86,7 @@ nắm rõ thông tin cần thiết.
   <li>Thông tin có tính đồng bộ, phân quyền quản lý chặt chẽ </li>
   <li>Bảo mật tốt cho người quản trị hệ thống </li>
 </ul>
+
 ## MÔ HÌNH HÓA
 
 **Biểu đồ phân rã chức năng (BFD)**
@@ -94,6 +95,26 @@ nắm rõ thông tin cần thiết.
 
 **Biểu đồ dòng dữ liệu (DFD)**
 
+![9](https://user-images.githubusercontent.com/27652065/27535201-06edeb20-5a94-11e7-933b-0e636c5a0a1b.png)
+
+**Biểu đồ mức 0**
+
+![9 - copy 6](https://user-images.githubusercontent.com/27652065/27535246-3fb4e6d4-5a94-11e7-8673-7007b9276730.png)
+
+	1.   Yêu cầu sử dụng hệ thống	         15. Yêu cầu thống kê, tra cứu
+	2.   Truy vấn thông tin hệ thống	 16. Truy vấn TT danh mục
+	3.   Trả về thông tin hệ thống	         17. Trả về thông tin danh mục
+	4.   Xác nhận sử dụng hệ thống	         18. Truy vấn điểm
+	5.   Yêu cầu cập nhâp danh mục	         19. Trả về thông tin điểm
+	6.   Truy vấn thông tin danh mục         20. Kết quả thống kê, tra cứu
+	7.   Trả về thông tin danh mục	         21. Yêu cầu sử dụng hệ thống
+	8.   Danh mục được cập nhập	         22. Xác nhận sử dụng hệ thống
+	9.   Yêu cầu xử lý điểm	                 23. Yêu cầu tra cứu
+	10. Truy vấn thông tin danh mục          24. Kết quả tra cứu
+	11. Trả về thông tin danh mục	         25. Yêu cầu sử dụng hệ thống
+	12. Truy vấn thông tin điểm	         26. Xác nhận sử dụng hệ thống
+	13. Trả về thông tin điểm	         27. Yêu cầu xử lí điểm
+	14. Kết quả xử lý điểm	                 28. Kết quả xử lí điểm
 
 
 
