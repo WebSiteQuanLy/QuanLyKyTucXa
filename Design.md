@@ -24,7 +24,9 @@ Hệ thống quản lý điểm được xây dựng hướng đến các đối
   <li>Người dùng </li>
 
 </ul>
+
 **Phạm vi**
+
 **Tên dự án: Website Quản lí điểm Trường tiểu học số 1 Bình Châu**
 
 Phát biểu vấn đề: 
@@ -115,6 +117,51 @@ nắm rõ thông tin cần thiết.
 	12. Truy vấn thông tin điểm	         26. Xác nhận sử dụng hệ thống
 	13. Trả về thông tin điểm	         27. Yêu cầu xử lí điểm
 	14. Kết quả xử lý điểm	                 28. Kết quả xử lí điểm
+
+**Biểu đồ mức 1**
+
+![9 - copy](https://user-images.githubusercontent.com/27652065/27535369-c4cc9c86-5a94-11e7-9d54-92a93b2cb259.png)
+
+1.	Thông tin đăng nhập
+2.	Truy vấn thông tin User
+3.	Kết quả đăng nhập
+4.	Kết quả đăng nhập
+5.	Yêu cầu đăng xuất
+6.	Truy vấn thông tin User
+7.	Kết quả truy vấn thông tin User
+8.	Kết quả đăng xuất
+
+**Sơ đồ mức 1- Xử lý điểm**
+
+![9 - copy 5](https://user-images.githubusercontent.com/27652065/27535424-fb331692-5a94-11e7-97f0-786725330d24.png)
+
+1.Thông tin điểm			11. Yêu cầu xác nhận điểm
+2. Thông tin môn học			12. Truy vấn thông tin môn học
+3. Kết quả truy vấn môn học		13. Kết quả truy vấn thông tin môn học
+4. Truy vấn thông tin giáo viên		14. Truy vấn thông tin giáo viên
+5. Kết quả truy vấn thông tin học sinh	15. Kết quả truy vấn thông tin giáo viên
+6.Truy vấn thông tin học sinh		16. Truy vấn thông tin học sinh
+7. Kết quả truy vấn thông tin học sinh	17. Kết quả truy vấn thông tin học sinh
+8. Cập nhập điểm			18. Truy vấn thông tin điểm
+9 .Kết quả cập nhập điểm		19. Kế quả truy vấn thông tin điểm
+10. Điểm đã cập nhập			24. Kết quả xác nhận điểm
+
+
+**Sơ đồ mức 1- Thống kê,tra cứu**
+
+![9 - copy 4](https://user-images.githubusercontent.com/27652065/27535497-490f605a-5a95-11e7-80fe-59e2e7d510bf.png)
+
+1 Yêu cầu thống kê		12. Kết quả thống kê
+2. Truy vấn thông tin bộ môn	13. Yêu cầu tra cứu
+3. Thông tin bộ môn		14. Truy vấn thông tin điểm
+4. Truy vấn thông tin điểm	15. Thông tin điểm
+5. Thông tin điểm		16. Truy vấn thông tin lớp
+6. Truy vấn thông tin lớp	17. Thông tin lớp
+7. Thông tin lớp		18. Truy vấn thông tin học sinh
+8. Truy vấn thông tin học sinh	19. Thông tin học sinh
+9. Thông tin học sinh		20. Truy vấn thông tin môn học
+10. Truy vấn thông tin môn học	21. Thông tin môn học
+11. Thông tin môn học		22. Kết quả tra cứu
 
 
 
