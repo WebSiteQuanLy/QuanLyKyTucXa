@@ -129,6 +129,20 @@ nắm rõ thông tin cần thiết.
 ![9 - copy 6](https://user-images.githubusercontent.com/27652065/27638382-424c6ac0-5c3d-11e7-92a2-fdb91535d214.png)
 
 
+**Biểu đồ mức 1**
+
+
+![9 - copy](https://user-images.githubusercontent.com/27652065/27638539-ce2b8288-5c3d-11e7-839d-898f8fcf5c73.png)
+
+	1.	Thông tin đăng nhập
+	2.	Truy vấn thông tin User
+	3.	Kết quả đăng nhập
+	4.	Kết quả đăng nhập
+	5.	Yêu cầu đăng xuất
+	6.	Truy vấn thông tin User
+	7.	Kết quả truy vấn thông tin User
+	8.	Kết quả đăng xuất
+
 
 
 
