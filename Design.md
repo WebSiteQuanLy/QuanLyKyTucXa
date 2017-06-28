@@ -38,7 +38,7 @@ Hệ thống quản lý sinh viên được xây dựng hướng đến các đ�
 
 Phát biểu vấn đề: 
 
-Với số lượng sinh viên hàng năm tăng lên không ngừng,KTX sinh viên Khánh Hòa có nhu 
+Với số lượng sinh viên hàng năm tăng lên không ngừng, KTX sinh viên Khánh Hòa có nhu 
 cầu cải tiến việc tự động lưu trữ, tìm kiếm và in ấn các báo 
 cáo nhằm đáp ứng được một khối lượng lớn về xử lí thông tin và tính chính xác 
 của thông tin. Sự can thiệp của hệ thống quản lí sinh viên sẽ mang đến hiệu quả hoạt động cao hơn 
@@ -47,14 +47,14 @@ trong công tác quản lí của KTX sinh viên Khánh Hòa.
 **Mục tiêu**
 
 Cho phép cán bộ quản lí và theo dõi thông tin lí lịch, 
-năng lực và nề nếp sống của từng sinh viên,cách chính xác.Tra cứu, thống kê kết quả,...
+năng lực và nề nếp sống của từng sinh viên, cách chính xác.Tra cứu, thống kê kết quả,...
 Đảm bảo cơ sở dữ liệu bảo mật và có độ tin cậy cao.  
 
 **Mô tả**
 
 Hệ thống mới sẽ thu thập tất cả các thông tin của sinh viên, 
-nhân viên KTX,thành tích học tập,…
-Lập danh sách, báo biểu…nhằm giúp cho cán bộ quản lí 
+nhân viên KTX, thành tích học tập,…
+Lập danh sách, báo biểu… nhằm giúp cho cán bộ quản lí 
 nắm rõ thông tin cần thiết.
 
 **Lợi ích mang lại**
