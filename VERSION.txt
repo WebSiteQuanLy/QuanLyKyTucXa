@@ -1,6 +1,6 @@
-﻿Phiên bản Website Quản lý học sinh Trường tiểu học số 1 Bình Châu 
+﻿Phiên bản Phần mềm quản lý Ký Túc Xá Sinh Viên Nha Trang
 //
-Hiện tại chỉ tồn tại một phiên bản là phiên bản đầu tiên.
+Hiện tại chỉ tồn tại một phiên bản này là phiên bản đầu tiên.
 //
 Bản quyền thuộc về Ngô Mậu Bảo & Nguyễn Thị Mỹ Linh
 Được cấp phép theo giấy phép của MIT, có trường học tái phân phối
