@@ -11,15 +11,15 @@
 
 ## MÔ TẢ DỰ ÁN
 
-Phạm vi
+**Phạm vi**
 
-Thông tin tổng quan
+**Thông tin tổng quan**
 
 <ul>
   <li>Tên dự án: Phần mềm quản lý ký túc xá sinh viên Khánh Hòa</li>
 </ul>
 
-Phát biểu vấn đề
+**Phát biểu vấn đề**
 
 <ul>
   <li>Trong đời sống hiện nay, ứng dụng tin học hóa vào các ngành kinh tế góp
@@ -39,12 +39,12 @@ Phát biểu vấn đề
 
 </ul>
 
-Hệ thống quản lý điểm được xây dựng hướng đến các đối tượng
+**Hệ thống quản lý điểm được xây dựng hướng đến các đối tượng**
 <ul>
   <li>Người quản trị hệ thống</li>
   <li>Cán bộ quản lý</li>
 </ul>
-Lợi ích mang lại:
+**Lợi ích mang lại:**
 <ul>
   <li>Tạo sự tiện dụng, nhanh chóng và thoải mái cho ban quản lý có trách nhiệm quản lí</li>
   <li>Tự động hóa cho công tác quản lí của trường tạo nên tính chuyên nghiệp cho việc quản lí thông tin</li>
@@ -52,7 +52,7 @@ Lợi ích mang lại:
 
 </ul>
 
-Các bước thực hiện để hoàn thành dự án:
+**Các bước thực hiện để hoàn thành dự án:**
 <ul>
   <li>Lập kế hoạch phát triển hệ thống</li>
   <li>Phân tích hệ thống</li>
@@ -63,7 +63,7 @@ Các bước thực hiện để hoàn thành dự án:
 
 </ul>
 
-Rằng buộc tổng quan hệ thống
+**Rằng buộc tổng quan hệ thống**
 <ul>
   <li>Không ảnh hưởng đến cơ cấu tổ chức và các hệ thống khác của KTX</li>
   <li>Sau khi phần mềm phat triển có thể hỗ trợ tốt cho công tác quản lý</li>
@@ -76,7 +76,7 @@ giúp cho cán bộ quản lí nắm rõ thông tin cần thiết.
 
 ## MỤC ĐÍCH CỦA DỰ ÁN  
 
-Cho phép cán bộ quản lí và theo dõi:
+**Cho phép cán bộ quản lí và theo dõi:**
 <ul>
   <li>Thông tin lí lịch sinh viên</li>
   <li>Hoạt động của từng sinh viên</li>
