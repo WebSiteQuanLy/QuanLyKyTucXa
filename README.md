@@ -44,7 +44,9 @@
   <li>Người quản trị hệ thống</li>
   <li>Cán bộ quản lý</li>
 </ul>
+
 **Lợi ích mang lại:**
+
 <ul>
   <li>Tạo sự tiện dụng, nhanh chóng và thoải mái cho ban quản lý có trách nhiệm quản lí</li>
   <li>Tự động hóa cho công tác quản lí của trường tạo nên tính chuyên nghiệp cho việc quản lí thông tin</li>
