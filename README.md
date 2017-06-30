@@ -87,3 +87,5 @@ giúp cho cán bộ quản lí nắm rõ thông tin cần thiết.
   <li>Đảm bảo cơ sở dữ liệu bảo mật và có độ tin cậy cao</li>
   <li>Tra cứu, thống kê kết quả,...</li>
 </ul>
+
+ **GOOKLUCK**
