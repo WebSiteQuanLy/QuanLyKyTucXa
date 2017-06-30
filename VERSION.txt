@@ -1,4 +1,4 @@
-﻿Phiên bản Phần mềm quản lý Ký Túc Xá Sinh Viên Nha Trang
+﻿Phiên bản Phần mềm "Quản lý kí túc xá sinh viên Khánh Hòa" 
 //
 Hiện tại chỉ tồn tại một phiên bản này là phiên bản đầu tiên.
 //
