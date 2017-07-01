@@ -18,3 +18,17 @@ dự án thêm nhiều ưu điểm, hạn chế những sai sót, rủi ro.
 <ul>
 <li> Github:  (https://github.com/WebSiteQuanLy/QuanLyKyTucXa)</li>
 </ul>
+
+
+## CÁCH ĐÓNG GÓP MÃ NGUỒN
+
+Sau khi lấy dữ liệu về (pull) máy tính các bạn lưu trữ ở 1 file rõ ràng. 
+Đọc kĩ các giấy phép của dự án đã ghi, xem các quyền các bạn được sử dụng trong dự án.
+Cài đặt các chương trình phần mềm hỗ trợ cho dự án.
+
+Hoàn tất các bạn liên hệ gmail:
+Ngomaubaodhcn1b@gmail.com
+hoặc 01635286957
+
+Trưởng team dự án sẽ thêm bạn vào thành viên hoặc cộng tác viên, để bạn có thể đóng
+góp mã nguồn 1 cách nhanh chóng và hiệu quả.
