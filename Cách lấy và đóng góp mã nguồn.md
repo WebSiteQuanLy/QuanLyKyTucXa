@@ -32,3 +32,15 @@ hoặc 01635286957
 
 Trưởng team dự án sẽ thêm bạn vào thành viên hoặc cộng tác viên, để bạn có thể đóng
 góp mã nguồn 1 cách nhanh chóng và hiệu quả.
+
+## LINK THAM KHẢO
+
+<ul>
+<li> Visual Studio 2013 (https://msdn.microsoft.com/en-us/library/dd831853(v=vs.120).aspx)</li>
+<li> Visual Studio Community 2013 (https://www.visualstudio.com/en-us/news/releasenotes/vs2013-community-vs)</li>
+<li> SQL Server 2012 (https://www.microsoft.com/en-us/download/details.aspx?id=29062)</li>
+</ul>
+
+![tuyen-cong-tac-vien](https://user-images.githubusercontent.com/27652065/27718847-ca501c78-5d78-11e7-8e97-d8a028521e01.jpg)
+
+ <CẢM ƠN BẠN ĐÃ ĐỌC, MONG ĐƯỢC CỘNG TÁC>
