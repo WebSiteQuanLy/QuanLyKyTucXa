@@ -43,4 +43,5 @@ góp mã nguồn 1 cách nhanh chóng và hiệu quả.
 
 ![tuyen-cong-tac-vien](https://user-images.githubusercontent.com/27652065/27718847-ca501c78-5d78-11e7-8e97-d8a028521e01.jpg)
 
- <CẢM ƠN BẠN ĐÃ ĐỌC, MONG ĐƯỢC CỘNG TÁC>
+
+ **!!!CẢM ƠN BẠN ĐÃ ĐỌC, MONG ĐƯỢC CỘNG TÁC!!!**
