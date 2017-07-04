@@ -16,3 +16,11 @@ Mỗi lớp sẽ có tên tương ứng với nhiệm vụ là GUI,BLL,DAL hay l
 VD: Folder của bảng SV chứa các class có tên như: SVDAL,SVBLL,....
 
 Sẽ thấy rõ hơn khi nhìn vào code. 
+
+
+## THIẾT KẾ
+
+Các nút button sẽ mang id bắt đầu là: btn
+Các lable sẽ mang id bắt đầu là :lbl
+Các textbox sẽ mang id bắt đầu là :txt
+Các DataGridView sẽ mang id bắt đầu là: dgv
