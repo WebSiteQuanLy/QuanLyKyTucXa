@@ -17,3 +17,12 @@ Qua form giới thiệu sẽ giới thiệu sơ lược về sinh viên thực h
 bảo được tính bảo mật, tính an toàn của hệ thống. Bên cạnh đó còn hỗ trợ sự 
 kiểm soát và hỗ trợ đầy đủ các chức năng như đã phân quyền.
  Muốn sử dụng được phần mềm phải có tên đăng nhập và mật khẩu.
+
+<li>Quản lý phòng</li>
+	+Tổng, thông tin phòng.
+	+Thêm, xóa, sửa, hiển thị phòng.
+  <li>Quản lý sinh viên</li>
+	+Tổng, thông tin sinh viên.
+	+Thêm, xóa, sửa, hiển thị thông tin sinh viên.
+  <li>Hóa đơn điện nước</li>
+	+Thêm, xóa, sửa, hiển thị thông tin điện nước của các phòng.
