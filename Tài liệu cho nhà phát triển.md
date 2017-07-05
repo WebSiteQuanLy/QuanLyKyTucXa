@@ -15,3 +15,10 @@ ký túc xá chung</li>
 <li>Mang tính đa dạng dễ sử dụng</li>
 <li>Bổ sung nhiều chức năng đầy đủ để phần mềm trở thành công cụ hỗ trợ hữu ích</li>
 </ul>
+
+**Link tham khảo**
+
+Muốn phát triển phần mềm và xuất bản thành phiên bản mới, phải có giấy phép dự án
+được thông qua. Liên hệ gmail:Ngomaubaodhcn1b@gmail.com để được phép phát triển và
+xuất bản.
+
