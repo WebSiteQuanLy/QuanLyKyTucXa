@@ -26,3 +26,6 @@ kiểm soát và hỗ trợ đầy đủ các chức năng như đã phân quy�
 	+Thêm, xóa, sửa, hiển thị thông tin sinh viên.
   <li>Hóa đơn điện nước</li>
 	+Thêm, xóa, sửa, hiển thị thông tin điện nước của các phòng.
+ <li>Tìm kiếm</li>
+	+Tìm kiếm thông tin sinh viên dựa vào mã sinh viên
+	+Tìm kiếm thông tin sinh viên dựa vào mã sinh viên
