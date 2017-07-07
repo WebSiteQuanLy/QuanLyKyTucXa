@@ -4,8 +4,8 @@
 
 ## MÔ HÌNH 3 LỚP
 
-![3-tier](https://user-images.githubusercontent.com/27652065/27961707-d4191ad4-6359-11e7-8187-bac471746a32.jpg)
-
+![images](https://user-images.githubusercontent.com/27652065/27962171-4188988c-635b-11e7-9aac-0dfb3889b262.jpg)
+ 
 Mô hình 3 lớp được cấu thành từ: 
 Presentation Layers, Business Logic Layers, và Data Access Layers.
 
