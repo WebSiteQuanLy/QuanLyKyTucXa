@@ -19,6 +19,6 @@ ký túc xá chung</li>
 **Link tham khảo**
 
 Muốn phát triển phần mềm và xuất bản thành phiên bản mới, phải có giấy phép dự án
-được thông qua. Liên hệ gmail:Ngomaubaodhcn1b@gmail.com để được phép phát triển và
+được thông qua. Liên hệ gmail: Ngomaubaodhcn1b@gmail.com để được phép phát triển và
 xuất bản.
 
