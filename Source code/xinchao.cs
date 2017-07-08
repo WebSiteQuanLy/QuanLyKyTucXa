@@ -19,9 +19,10 @@ namespace QLKTX
 
         private void btnOk_Click(object sender, EventArgs e)
         {
+	//New một from đăng nhập mới
             var myForm = new dangnhap();
-            myForm.Show();
-            this.Hide();
+            myForm.Show(); //Hiển thị form myForm
+            this.Hide(); 
         }
     }
 }
