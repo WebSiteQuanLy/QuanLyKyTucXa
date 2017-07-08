@@ -41,3 +41,19 @@ layer cao hơn nó 1 bậc cho tới GUI thì sẽ quăng ra cho người dùng 
 Các dữ liệu được trung chuyển giữa các Layer thông qua một đối tượng gọi 
 là Data Transfer Object (DTO), đơn giản đây chỉ là các Class đại diện cho các 
 đối tượng được lưu trữ trong Database. Tổ chức mô hình 3 –Layer.
+
+Có rất nhiều cách đặt tên cho các thành phần của 3 lớp như:
+<ul>
+	<li>Cách 1: GUI, BUS, DAL</li>
+	<li>Cách 2: GUI, BLL, DAO, DTO</li>
+	<li>Cách 3: Presentation, BLL, DAL</li>
+
+Mã nguồn được tổ chức theo 3 lớp chính DAL,BLL,View(GUI) Còn thêm 1 tầng trung gian 
+luân chuyển giữa các tầng là DTO.
+
+## MÔ HÌNH 3 TẦNG
+
+![3-tier](https://user-images.githubusercontent.com/27652065/27961707-d4191ad4-6359-11e7-8187-bac471746a32.jpg)
+ 
+
+
