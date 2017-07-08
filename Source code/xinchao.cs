@@ -16,5 +16,12 @@ namespace QLKTX
         {
             InitializeComponent();
         }
+
+        private void btnOk_Click(object sender, EventArgs e)
+        {
+            var myForm = new dangnhap();
+            myForm.Show();
+            this.Hide();
+        }
     }
 }
