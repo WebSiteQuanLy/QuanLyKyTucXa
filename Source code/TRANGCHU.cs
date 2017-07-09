@@ -776,7 +776,7 @@ namespace QLKTX
         {
             string MP;
             MP = txtmaphongdn.Text;
-            DNBLL.xoadn(MP);
+            DNBLL.xoadn(MP);///tiến hành lưu dữ liệu và chuyển xuống BLL
         }
 
         private void btnhienthidn_Click_1(object sender, EventArgs e)
