@@ -525,8 +525,9 @@ namespace QLKTX
 
         private void btnxoasv_Click_1(object sender, EventArgs e)
         {
-            string MSV;
-            MSV = txtmasvsv.Text;
+
+            string MSV;//.Khai báo dữ liệu cho trường sinh viên
+            MSV = txtmasvsv.Text;///Lấy mã sinh viên
             SVBLL.xoasinhvien(MSV);
 
         }
