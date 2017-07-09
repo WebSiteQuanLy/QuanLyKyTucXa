@@ -226,7 +226,8 @@ namespace QLKTX
             h1.Hide();
             groupBox4.Hide();
             groupBox3.Hide();
-            groupBox1.Hide(); dataGridView1.Hide();
+            groupBox1.Hide(); 
+            dataGridView1.Hide();
            
         }
 
@@ -272,19 +273,21 @@ namespace QLKTX
       
         private void btnthem_Click(object sender, EventArgs e)
         {
+            ///Bắt try cacth cho button them nhằm mục đích sử lý ngoại lệ
+           
             try
             {
-                string MP;
-                MP = txtmaphong.Text;
-                string MK;
-                MK = txtmakhu.Text;
-                string TP;
-                TP = txttenphong.Text;
-                int SNHC;
-                SNHC = int.Parse(txtsonguoihientai.Text);
-                int SNTD;
-                SNTD = int.Parse(txtsonguoitoida.Text);
-                bool LP;
+                string MP;///Khai báo kiểu dữ liệu cho mã phòng
+                MP = txtmaphong.Text;///Lấy dữ liệu từ textbox chứa nội dung mã phòng
+                string MK;///Khai báo kiểu dữ liệu cho mã khu
+                MK = txtmakhu.Text;///Lấy dữ liệu từ textbox chứa nội dung mã khu
+                string TP;//Khai báo kiểu dữ liệu cho tên phòng
+                TP = txttenphong.Text;///Lấy dữ liệu từ textbox chứa nội dung tên phòng
+                int SNHC;//Khai báo kiểu dữ liệu cho số người hiện tại của phòng
+                SNHC = int.Parse(txtsonguoihientai.Text);//////Lấy dữ liệu từ textbox chứa nội dung số người hiện tại
+                int SNTD;//Khai báo kiểu dữ liệu cho số người tối đa
+                SNTD = int.Parse(txtsonguoitoida.Text);///Lấy dữ liệu từ textbox chứa nội dung số người tối đa
+                bool LP;//Khai báo kiểu dữ liệu cho loại phòng
                 //neu check thi gan = true, ngc lai = false
                 if (Pnam.Checked == true)
                 {
@@ -294,7 +297,7 @@ namespace QLKTX
                 {
                     LP = false;
                 }
-                PhBLL.themph(MP, MK, TP, LP, SNHC, SNTD);
+                PhBLL.themph(MP, MK, TP, LP, SNHC, SNTD);///truyền dữ liệu từ tầng BLL
                 MessageBox.Show("Đã thêm thành công");
             }
             catch
