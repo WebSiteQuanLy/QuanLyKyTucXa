@@ -781,6 +781,7 @@ namespace QLKTX
 
         private void btnhienthidn_Click_1(object sender, EventArgs e)
         {
+            ///Hiển thị danh sách điện nước 
             dataGridViewdiennuoc.DataSource = DNBLL.GetlistDN();
             dataGridViewdiennuoc.Columns[0].HeaderText = "Mã phòng";
             dataGridViewdiennuoc.Columns[1].HeaderText = "Tháng";
