@@ -577,6 +577,8 @@ namespace QLKTX
         {
             ///Khai báo dữ liệu cho các trường bảng sinh viên
             ///Lấy dữ liệu từ các ô textbox và checkbox
+            try
+            { 
             string MSV;
             MSV = txtmasvsv.Text;
             string MKTX;
@@ -621,6 +623,12 @@ namespace QLKTX
                 }
             }
             SVBLL.suasinhvien(MSV, MKTX, H, T, CMND, GT, NS, SDT, QQ, NLHD, Mphong, Hinh, HTGH, SDTGH, QH, NN);
+            MessageBox.Show("Đã sửa thành công ");
+           }
+            catch
+            {
+                MessageBox.Show("Đã xảy ra lỗi khi sửa ");
+            }
         }
 
         private void btnhthimsvtk_Click(object sender, EventArgs e)
