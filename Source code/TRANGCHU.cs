@@ -697,8 +697,10 @@ namespace QLKTX
 
         private void btnmptk_Click(object sender, EventArgs e)
         {
+            
             string MPTK;
             MPTK = txtmptk.Text;
+            ///danh sách phogf hiển thị khi tìm kiếm 
             hitnthimaphongtk.DataSource = PhBLL.TKPHONG(MPTK);
             hitnthimaphongtk.Columns[0].HeaderText = "Mã phòng";
             hitnthimaphongtk.Columns[1].HeaderText = "Mã khu";
