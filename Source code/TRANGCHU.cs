@@ -321,6 +321,7 @@ namespace QLKTX
             dataGridView2.Show();
 
             PhBLL.phong();
+            ///Hiển thị bảng phòng
             dataGridView2.DataSource = PhBLL.phong();
             dataGridView2.Columns[0].HeaderText = "Mã phòng";
             dataGridView2.Columns[1].HeaderText = "Mã khu";
@@ -337,16 +338,17 @@ namespace QLKTX
 
         private void btnxoa_Click(object sender, EventArgs e)
         {
+            ///Bắt try cacth cho button xóa nhằm mục đích sử lý ngoại lệ, khi có lỗi xảy ra
             try
             {
-                string mp;
-                mp = txtmaphong.Text;
+                string mp;///Khai báo dữ liệu chó mã phòng
+                mp = txtmaphong.Text;///Lấy dữ liệu từ textbox xuống 
                 PhBLL.xoaph(mp);
-                MessageBox.Show("Đã xóa thành công");
+                MessageBox.Show("Đã xóa thành công");///hiển thị thông báo khi xóa thành công
             }
             catch
             {
-                MessageBox.Show("Lỗi hệ thống khi xóa");
+                MessageBox.Show("Lỗi hệ thống khi xóa");///Hiển thị thông báo khi việc xóa có lỗi
             }
               
         }
