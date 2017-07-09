@@ -47,13 +47,13 @@ namespace QLKTX
             groupBox3.Hide(); ///Tắt groupBox3 trên thanh menu
             groupBox4.Hide(); ///Tắt groupBox4 trên thanh menu
             dataGridView1.Show(); ///Bật dataGridView1 trên thanh menu 
-            dataGridView1.DataSource = PhBLL.phong();
-            dataGridView1.Columns[0].HeaderText = "Mã phòng";
-            dataGridView1.Columns[1].HeaderText = "Mã khu";
-            dataGridView1.Columns[2].HeaderText = "Tên phòng";
-            dataGridView1.Columns[3].HeaderText = "Loại phòng";
-            dataGridView1.Columns[4].HeaderText = "Số người hiện tại";
-            dataGridView1.Columns[5].HeaderText = "Số người tối đa";
+            dataGridView1.DataSource = PhBLL.phong(); ///Lấy bảng phòng hiển thị lên thanh menu 
+            dataGridView1.Columns[0].HeaderText = "Mã phòng";///Cột 1 trong bảng
+            dataGridView1.Columns[1].HeaderText = "Mã khu";///Cột 2 trong bảng
+            dataGridView1.Columns[2].HeaderText = "Tên phòng";///Cột 3 trong bảng
+            dataGridView1.Columns[3].HeaderText = "Loại phòng";///Cột 4 trong bảng
+            dataGridView1.Columns[4].HeaderText = "Số người hiện tại";///Cột 5 trong bảng
+            dataGridView1.Columns[5].HeaderText = "Số người tối đa";///Cột 6 trong bảng
         }
 
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
