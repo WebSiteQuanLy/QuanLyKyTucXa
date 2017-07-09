@@ -633,6 +633,7 @@ namespace QLKTX
 
         private void btnhthimsvtk_Click(object sender, EventArgs e)
         {
+            ///Hiển thị link danh sách cho menu tìm kiếm
             hienthimsvtk.DataSource = SVBLL.GetList();
             hienthimsvtk.Columns[0].HeaderText = "Mã SV";
             hienthimsvtk.Columns[1].HeaderText = "Mã KTX";
@@ -655,7 +656,7 @@ namespace QLKTX
         
         private void btnsvtk_Click(object sender, EventArgs e)
         {
-            string MSVTK;
+            string MSVTK;///
             MSVTK = txtmsvtk.Text;
             hienthimsvtk.DataSource = SVBLL.TIMsv(MSVTK);
             hienthimsvtk.Columns[0].HeaderText = "Mã SV";
@@ -676,7 +677,6 @@ namespace QLKTX
             hienthimsvtk.Columns[15].HeaderText = "Nghề nghiệp  ";
             SVBLL.TIMsv(MSVTK);
            
-            
         }
 
         private void txtmsvtk_TextChanged(object sender, EventArgs e)
@@ -686,13 +686,13 @@ namespace QLKTX
 
         private void btnxoasvtk_Click(object sender, EventArgs e)
         {
-            txtmsvtk.Clear();
+            txtmsvtk.Clear();///Làm sạch dữ liệu đã nhập ở textbox tìm kiếm theo mã sinh viên
             
         }
 
         private void btnxoamptk_Click(object sender, EventArgs e)
         {
-            txtmptk.Clear();
+            txtmptk.Clear();///Làm sạch dữ liệu đã nhập ở textbox tìm kiếm theo mã phòng
         }
 
         private void btnmptk_Click(object sender, EventArgs e)
