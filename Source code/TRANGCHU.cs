@@ -468,37 +468,37 @@ namespace QLKTX
 
         private void btnthemsv_Click_1(object sender, EventArgs e)
         {
-            string MSV;
+            string MSV;///Khai báo dữ liệu cho trường mã sinh viên
             MSV = txtmasvsv.Text;
-            string MKTX;
+            string MKTX;///Khai báo dữ liệu cho trường mã kí túc xá
             MKTX = txtmaktxsv.Text;
-            string H;
+            string H;///Khai báo dữ liệu cho trường họ sinh viên
             H = txthosv.Text;
-            string T;
+            string T;///Khai báo dữ liệu cho trường tên sinh viên
             T = txttensv.Text;
-            string CMND;
+            string CMND;///Khai báo dữ liệu cho trường chứ minh nhân dân sinh viên
             CMND = txtcmndsv.Text;
-            DateTime NS;
+            DateTime NS;///Khai báo dữ liệu cho trường ngày sinh sinh viên
             NS = DateTime.Parse(txtngaysinhsv.Text);
-            string SDT;
+            string SDT;///Khai báo dữ liệu cho trường số điện thoại sinh viên
             SDT = txtsdtsv.Text;
-            string QQ;
+            string QQ;///Khai báo dữ liệu cho trường quê quán sinh viên
             QQ = txtquequansv.Text;
-            DateTime NLHD;
+            DateTime NLHD;///Khai báo dữ liệu cho trường ngày làm hợp đồng sinh viên
             NLHD = DateTime.Parse(dateTimePicker1.Text);
-            string Mphong;
+            string Mphong;///Khai báo dữ liệu cho trường mã phòng
             Mphong = txtmpsv.Text;
-            string Hinh;
+            string Hinh;///Khai báo dữ liệu cho trường hình
             Hinh = txthinh.Text;
-            string HTGH;
+            string HTGH;///Khai báo dữ liệu cho trường họ tên người giám hộ
             HTGH = txttenghsv.Text;
-            string SDTGH;
+            string SDTGH;///Khai báo dữ liệu cho trường số điện thoại
             SDTGH = txtsdtghsv.Text;
-            string QH;
+            string QH;///Khai báo dữ liệu cho trường quan hệ
             QH = txtmoiquanhesv.Text;
-            string NN;
+            string NN;///Khai báo dữ liệu cho trường nghề nghiệp
             NN = txtnghenghiepsv.Text;
-            bool GT;
+            bool GT;///Khai báo dữ liệu cho trường giới tính
             {
                 if (gtsv.Checked == true)
                 {
