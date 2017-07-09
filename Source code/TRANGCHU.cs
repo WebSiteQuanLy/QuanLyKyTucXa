@@ -525,10 +525,17 @@ namespace QLKTX
 
         private void btnxoasv_Click_1(object sender, EventArgs e)
         {
-
-            string MSV;//.Khai báo dữ liệu cho trường sinh viên
-            MSV = txtmasvsv.Text;///Lấy mã sinh viên
-            SVBLL.xoasinhvien(MSV);
+            try
+            {
+                string MSV;//.Khai báo dữ liệu cho trường sinh viên
+                MSV = txtmasvsv.Text;///Lấy mã sinh viên
+                SVBLL.xoasinhvien(MSV);
+                MessageBox.Show("Đã xóa thành công");
+            }
+            catch
+            {
+                MessageBox.Show("Đã xảy ra lỗi khi xóa ");
+            }
 
         }
 
