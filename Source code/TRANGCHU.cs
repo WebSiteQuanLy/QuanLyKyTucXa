@@ -575,6 +575,7 @@ namespace QLKTX
 
         private void btnsuasv_Click_2(object sender, EventArgs e)
         {
+            
             string MSV;
             MSV = txtmasvsv.Text;
             string MKTX;
@@ -616,8 +617,6 @@ namespace QLKTX
                     GT = false;
                 }
             }
-
-
             SVBLL.suasinhvien(MSV, MKTX, H, T, CMND, GT, NS, SDT, QQ, NLHD, Mphong, Hinh, HTGH, SDTGH, QH, NN);
         }
 
