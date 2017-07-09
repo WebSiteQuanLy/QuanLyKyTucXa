@@ -726,6 +726,7 @@ namespace QLKTX
 
         private void btnlamlaidn_Click(object sender, EventArgs e)
         {
+            ///Làm sạch các ô đã nhập bảng lệnh clear
             txtdiencudn.Clear();
             txtdienmoidn.Clear();
             txtnuoccudn.Clear();
