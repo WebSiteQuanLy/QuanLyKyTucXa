@@ -552,6 +552,7 @@ namespace QLKTX
 
         private void btnhienthisv_Click_2(object sender, EventArgs e)
         {
+            ///Hiển thị danh sách sinh viên
             dataGridView3.DataSource = SVBLL.GetList();
             dataGridView3.Columns[0].HeaderText = "Mã SV";
             dataGridView3.Columns[1].HeaderText = "Mã KTX";
