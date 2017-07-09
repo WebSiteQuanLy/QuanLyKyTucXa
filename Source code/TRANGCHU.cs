@@ -100,24 +100,24 @@ namespace QLKTX
 
         private void hồSơSinhViênToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            dataGridView1.Show();
-            dataGridView1.DataSource = SVBLL.GetList();
-            dataGridView1.Columns[0].HeaderText = "Mã SV";
-            dataGridView1.Columns[1].HeaderText = "Mã KTX";
-            dataGridView1.Columns[2].HeaderText = "Họ";
-            dataGridView1.Columns[3].HeaderText = "Tên";
-            dataGridView1.Columns[4].HeaderText = "Số CMND";
-            dataGridView1.Columns[5].HeaderText = "Giới tính";
-            dataGridView1.Columns[6].HeaderText = "Ngày sinh";
-            dataGridView1.Columns[7].HeaderText = "Số ĐT";
-            dataGridView1.Columns[8].HeaderText = "Quê quán ";
-            dataGridView1.Columns[9].HeaderText = "Ngày hợp đồng";
-            dataGridView1.Columns[10].HeaderText = "Mã Phòng";
-            dataGridView1.Columns[11].HeaderText = "Hình ảnh ";
-            dataGridView1.Columns[12].HeaderText = "Họ & tên người giám hộ ";
-            dataGridView1.Columns[13].HeaderText = "Số đt giám hộ ";
-            dataGridView1.Columns[14].HeaderText = "Mối quan hệ ";
-            dataGridView1.Columns[15].HeaderText = "Nghề nghiệp  ";
+            dataGridView1.Show(); ///Hiện thị dữ liệu trên dataGridView1
+            dataGridView1.DataSource = SVBLL.GetList(); ///Hiển thị bảng thông tin sinh viên
+            dataGridView1.Columns[0].HeaderText = "Mã SV";///Cột 1 trong bảng
+            dataGridView1.Columns[1].HeaderText = "Mã KTX";///Cột 2 trong bảng
+            dataGridView1.Columns[2].HeaderText = "Họ";///Cột 3 trong bảng
+            dataGridView1.Columns[3].HeaderText = "Tên";///Cột 4 trong bảng
+            dataGridView1.Columns[4].HeaderText = "Số CMND";///Cột 5 trong bảng
+            dataGridView1.Columns[5].HeaderText = "Giới tính";///Cột 6 trong bảng
+            dataGridView1.Columns[6].HeaderText = "Ngày sinh";///Cột 7 trong bảng
+            dataGridView1.Columns[7].HeaderText = "Số ĐT";///Cột 8 trong bảng
+            dataGridView1.Columns[8].HeaderText = "Quê quán ";///Cột 9 trong bảng
+            dataGridView1.Columns[9].HeaderText = "Ngày hợp đồng";///Cột 10 trong bảng
+            dataGridView1.Columns[10].HeaderText = "Mã Phòng";///Cột 11 trong bảng
+            dataGridView1.Columns[11].HeaderText = "Hình ảnh ";///Cột 12 trong bảng
+            dataGridView1.Columns[12].HeaderText = "Họ & tên người giám hộ ";///Cột 13 trong bảng
+            dataGridView1.Columns[13].HeaderText = "Số đt giám hộ ";///Cột 14 trong bảng
+            dataGridView1.Columns[14].HeaderText = "Mối quan hệ ";///Cột 15 trong bảng
+            dataGridView1.Columns[15].HeaderText = "Nghề nghiệp  ";///Cột 16 trong bảng
 
         }
 
