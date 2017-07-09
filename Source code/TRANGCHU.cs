@@ -355,28 +355,36 @@ namespace QLKTX
 
         private void btnsua_Click(object sender, EventArgs e)
         {
-            string Mp;
-            Mp = txtmaphong.Text;
-            string Mk;
-            Mk = txtmakhu.Text;
-            string Tp;
-            Tp = txttenphong.Text;
-            int Snht;
-            Snht = int.Parse(txtsonguoihientai.Text);
-            int Sntd;
-            Sntd = int.Parse(txtsonguoitoida.Text);
-            bool Lp;
-            {//neu check thi gan = true, ngc lai = false
-                if (Pnam.Checked == true)
-                {
-                    Lp = true;
+            try
+            {
+                string Mp;
+                Mp = txtmaphong.Text;
+                string Mk;
+                Mk = txtmakhu.Text;
+                string Tp;
+                Tp = txttenphong.Text;
+                int Snht;
+                Snht = int.Parse(txtsonguoihientai.Text);
+                int Sntd;
+                Sntd = int.Parse(txtsonguoitoida.Text);
+                bool Lp;
+                {//neu check thi gan = true, ngc lai = false
+                    if (Pnam.Checked == true)
+                    {
+                        Lp = true;
+                    }
+                    else
+                    {
+                        Lp = false;
+                    }
                 }
-                else
-                {
-                    Lp = false;
-                }
+                PhBLL.suaph(Mp, Mk, Tp, Lp, Snht, Sntd);
+                MessageBox.Show("Đã sủa thành công");///Hiển thị thông báo khi việc sửa thành công
             }
-            PhBLL.suaph(Mp, Mk, Tp, Lp, Snht, Sntd);
+            catch
+            {
+                MessageBox.Show("Đã xảy ra lỗi khi sủa ");///Hiển thị thông báo khi việc sửa có lỗi
+            }
 
         }
 
