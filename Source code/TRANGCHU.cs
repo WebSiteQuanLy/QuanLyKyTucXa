@@ -757,18 +757,18 @@ namespace QLKTX
 
         private void btnsuadn_Click_1(object sender, EventArgs e)
         {
-            string MP;
-            MP = txtmaphongdn.Text;
-            DateTime TH;
-            TH = DateTime.Parse(dateTimediennuoc.Text);
-            int CSDC;
-            CSDC = int.Parse(txtdiencudn.Text);
-            int CSDM;
-            CSDM = int.Parse(txtdienmoidn.Text);
-            int CSNC;
-            CSNC = int.Parse(txtnuoccudn.Text);
-            int CSNM;
-            CSNM = int.Parse(txtnuocmoidn.Text);
+            string MP;///Khai báo dữ liệu 
+            MP = txtmaphongdn.Text;///Lấy dữ liệu từ các ô trong giao diện
+            DateTime TH;///Khai báo dữ liệu 
+            TH = DateTime.Parse(dateTimediennuoc.Text);///Lấy dữ liệu từ các ô trong giao diện
+            int CSDC;///Khai báo dữ liệu 
+            CSDC = int.Parse(txtdiencudn.Text);///Lấy dữ liệu từ các ô trong giao diện
+            int CSDM;///Khai báo dữ liệu 
+            CSDM = int.Parse(txtdienmoidn.Text);///Lấy dữ liệu từ các ô trong giao diện
+            int CSNC;///Khai báo dữ liệu 
+            CSNC = int.Parse(txtnuoccudn.Text);///Lấy dữ liệu từ các ô trong giao diện
+            int CSNM;///Khai báo dữ liệu 
+            CSNM = int.Parse(txtnuocmoidn.Text);///Lấy dữ liệu từ các ô trong giao diện
             DNBLL.suadn(MP, TH, CSDC, CSDM, CSNC, CSNM);
         }
 
