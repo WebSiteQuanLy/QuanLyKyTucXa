@@ -63,13 +63,13 @@ namespace QLKTX
 
         private void Trangchu_Load(object sender, EventArgs e)
         {
-            bangthongke.Hide();
-            bang1tk.Hide();
-            bang2tk.Hide();
-            bangdiennuoc.Hide();
-            bang1sv.Hide();
-            bang2sv.Hide();
-            bang3sv.Hide();
+            bangthongke.Hide();///Tắt bảng thống kê tạ giao diện màn hình chính
+            bang1tk.Hide();///Tắt bảng 1 thống kê
+            bang2tk.Hide();///Tắt bảng 2 thống kê
+            bangdiennuoc.Hide();///Tắt bảng điện nước 
+            bang1sv.Hide();///Tắt bảng 1 thông tin sinh viên 
+            bang2sv.Hide();///Tắt bảng 2 thông tin sinh viên 
+            bang3sv.Hide();///Tắt bảng 3 thông tin sinh viên 
             groupBox4.Hide();
             groupBox1.Hide();
             groupBox3.Hide();
