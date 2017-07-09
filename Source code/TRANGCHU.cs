@@ -128,17 +128,17 @@ namespace QLKTX
 
         private void giớiThiệuVềKTXToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            bangthongke.Hide();
-            bangdiennuoc.Hide();
-            bang1tk.Hide();
-            bang2tk.Hide(); 
-            groupBox4.Hide();
-            groupBox3.Hide();
-            groupBox1.Hide();
-            h1.Show();
-            bang1sv.Hide();
-            bang2sv.Hide();
-            bang3sv.Hide();
+            bangthongke.Hide();///Tắt bảng thống kê đối với trang giới thiệu
+            bangdiennuoc.Hide();/// Tắt bảng điện nước với trang giới thiệu
+            bang1tk.Hide();///Tắt bảng 1 thống kê 
+            bang2tk.Hide(); ///Tắt bảng 2 thống kê
+            groupBox4.Hide();///Tắt groupBox4
+            groupBox3.Hide();//////Tắt groupBox3
+            groupBox1.Hide();///Tắt groupBox1
+            h1.Show();///Hiển thị hình 1
+            bang1sv.Hide();///Tắt bảng 1 sinh viên
+            bang2sv.Hide();///Tắt bảng 2 sinh viên
+            bang3sv.Hide();///Tắt bảng 3 sinh viên
             
         }
 
