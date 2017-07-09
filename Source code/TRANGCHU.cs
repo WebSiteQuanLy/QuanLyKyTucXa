@@ -468,50 +468,59 @@ namespace QLKTX
 
         private void btnthemsv_Click_1(object sender, EventArgs e)
         {
-            string MSV;///Khai báo dữ liệu cho trường mã sinh viên
-            MSV = txtmasvsv.Text;
-            string MKTX;///Khai báo dữ liệu cho trường mã kí túc xá
-            MKTX = txtmaktxsv.Text;
-            string H;///Khai báo dữ liệu cho trường họ sinh viên
-            H = txthosv.Text;
-            string T;///Khai báo dữ liệu cho trường tên sinh viên
-            T = txttensv.Text;
-            string CMND;///Khai báo dữ liệu cho trường chứ minh nhân dân sinh viên
-            CMND = txtcmndsv.Text;
-            DateTime NS;///Khai báo dữ liệu cho trường ngày sinh sinh viên
-            NS = DateTime.Parse(txtngaysinhsv.Text);
-            string SDT;///Khai báo dữ liệu cho trường số điện thoại sinh viên
-            SDT = txtsdtsv.Text;
-            string QQ;///Khai báo dữ liệu cho trường quê quán sinh viên
-            QQ = txtquequansv.Text;
-            DateTime NLHD;///Khai báo dữ liệu cho trường ngày làm hợp đồng sinh viên
-            NLHD = DateTime.Parse(dateTimePicker1.Text);
-            string Mphong;///Khai báo dữ liệu cho trường mã phòng
-            Mphong = txtmpsv.Text;
-            string Hinh;///Khai báo dữ liệu cho trường hình
-            Hinh = txthinh.Text;
-            string HTGH;///Khai báo dữ liệu cho trường họ tên người giám hộ
-            HTGH = txttenghsv.Text;
-            string SDTGH;///Khai báo dữ liệu cho trường số điện thoại
-            SDTGH = txtsdtghsv.Text;
-            string QH;///Khai báo dữ liệu cho trường quan hệ
-            QH = txtmoiquanhesv.Text;
-            string NN;///Khai báo dữ liệu cho trường nghề nghiệp
-            NN = txtnghenghiepsv.Text;
-            bool GT;///Khai báo dữ liệu cho trường giới tính
+            try
             {
-                if (gtsv.Checked == true)
+
+                string MSV;///Khai báo dữ liệu cho trường mã sinh viên
+                MSV = txtmasvsv.Text;
+                string MKTX;///Khai báo dữ liệu cho trường mã kí túc xá
+                MKTX = txtmaktxsv.Text;
+                string H;///Khai báo dữ liệu cho trường họ sinh viên
+                H = txthosv.Text;
+                string T;///Khai báo dữ liệu cho trường tên sinh viên
+                T = txttensv.Text;
+                string CMND;///Khai báo dữ liệu cho trường chứ minh nhân dân sinh viên
+                CMND = txtcmndsv.Text;
+                DateTime NS;///Khai báo dữ liệu cho trường ngày sinh sinh viên
+                NS = DateTime.Parse(txtngaysinhsv.Text);
+                string SDT;///Khai báo dữ liệu cho trường số điện thoại sinh viên
+                SDT = txtsdtsv.Text;
+                string QQ;///Khai báo dữ liệu cho trường quê quán sinh viên
+                QQ = txtquequansv.Text;
+                DateTime NLHD;///Khai báo dữ liệu cho trường ngày làm hợp đồng sinh viên
+                NLHD = DateTime.Parse(dateTimePicker1.Text);
+                string Mphong;///Khai báo dữ liệu cho trường mã phòng
+                Mphong = txtmpsv.Text;
+                string Hinh;///Khai báo dữ liệu cho trường hình
+                Hinh = txthinh.Text;
+                string HTGH;///Khai báo dữ liệu cho trường họ tên người giám hộ
+                HTGH = txttenghsv.Text;
+                string SDTGH;///Khai báo dữ liệu cho trường số điện thoại
+                SDTGH = txtsdtghsv.Text;
+                string QH;///Khai báo dữ liệu cho trường quan hệ
+                QH = txtmoiquanhesv.Text;
+                string NN;///Khai báo dữ liệu cho trường nghề nghiệp
+                NN = txtnghenghiepsv.Text;
+                bool GT;///Khai báo dữ liệu cho trường giới tính
                 {
-                    GT = true;
+                    if (gtsv.Checked == true)
+                    {
+                        GT = true;
+                    }
+                    else
+                    {
+                        GT = false;
+                    }
                 }
-                else
-                {
-                    GT = false;
-                }
-            }
 
 
-            SVBLL.themsinhvien(MSV, MKTX, H, T, CMND, GT, NS, SDT, QQ, NLHD, Mphong, Hinh, HTGH, SDTGH, QH, NN);
+                SVBLL.themsinhvien(MSV, MKTX, H, T, CMND, GT, NS, SDT, QQ, NLHD, Mphong, Hinh, HTGH, SDTGH, QH, NN);
+                MessageBox.Show("Đã thêm thành công");
+        }
+        catch
+    {
+        MessageBox.Show("Đã có lỗi khi thêm ");
+    }
         }
 
         private void btnxoasv_Click_1(object sender, EventArgs e)
