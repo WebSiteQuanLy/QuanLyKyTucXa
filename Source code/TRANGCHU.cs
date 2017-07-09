@@ -575,7 +575,8 @@ namespace QLKTX
 
         private void btnsuasv_Click_2(object sender, EventArgs e)
         {
-            
+            ///Khai báo dữ liệu cho các trường bảng sinh viên
+            ///Lấy dữ liệu từ các ô textbox và checkbox
             string MSV;
             MSV = txtmasvsv.Text;
             string MKTX;
@@ -606,7 +607,9 @@ namespace QLKTX
             QH = txtmoiquanhesv.Text;
             string NN;
             NN = txtnghenghiepsv.Text;
-            bool GT;
+            bool GT; ///trường giới tính với ô checkbox 
+                     ///Nếu ô checkbox được chọn thì giới tính lúc này có giá trị true là nam
+                     ///Nếu ô checkbox không được chọn thì giới tính lúc này có gtri là false là nữ
             {
                 if (gtsv.Checked == true)
                 {
