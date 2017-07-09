@@ -144,6 +144,8 @@ namespace QLKTX
 
         private void tìmKiếmToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            ///Lệnh hide là để tắt 1 bảng 1 hình ... mà ta không muốn hiển thị 
+            ///Lệnh show là để bật 1 hình hoặc 1 bảng.... mà ta muốn hiển thị
             SVBLL.THONGKESV();
             bangthongke.Show();
             bangdiennuoc.Hide();
