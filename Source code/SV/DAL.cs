@@ -98,5 +98,11 @@ namespace QLKTX.SV
             }
             return LISTTIMSV;
         }
+
+        public void thongkeSV()
+        {
+            helper.ExecuteQuery("SELECT COUNT(*) FROM SV ");
+        }
+
      }
 }
