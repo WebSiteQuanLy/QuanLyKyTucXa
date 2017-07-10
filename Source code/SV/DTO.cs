@@ -13,5 +13,10 @@ namespace QLKTX.SV
         public string Ho { get; set; }
         public string Ten { get; set; }
         public string CMND { get; set; }
+        public bool Gioitinh { get; set; }
+        public DateTime Ngaysinh { get; set; }
+        public string SDT { get; set; }
+        public string Quequan { get; set; }
+        public DateTime Ngaylamhopdong { get; set; }
     }
 }
