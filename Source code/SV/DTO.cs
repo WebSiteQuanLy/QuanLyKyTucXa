@@ -18,5 +18,12 @@ namespace QLKTX.SV
         public string SDT { get; set; }
         public string Quequan { get; set; }
         public DateTime Ngaylamhopdong { get; set; }
+        public string MaPhong { get; set; }
+        public string Hinh { get; set; }
+        public string Hotengh { get; set; }
+        public string Sdtgh { get; set; }
+        public string Quanhe { get; set; }
+        public string Nghenghiep { get; set; }
+
     }
 }
