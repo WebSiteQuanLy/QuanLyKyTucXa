@@ -76,5 +76,9 @@ namespace QLKTX.SV
         {
             helper.ExecuteQuery("UPDATE SV SET MaKTX ='" + MKTX + "',Ho='" + H + "',Ten='" + T + "',CMND='" + CMND + "',Gioitinh='" + GT + "',Ngaysinh='" + NS + "',SDT='" + SDT + "',Quequan='" + QQ + "',Ngaylamhopdong='" + NLHD + "',MaPhong='" + Mphong + "',Hinh='" + Hinh + "',Hotengh='" + HTGH + "',Sdtgh='" + SDTGH + "',Quanhe='" + QQ + "',Nghenghiep='" + NN + "' where MaSV ='" + MSV + "'");
         }
+        public void timkiemsv(string MSVTK)
+        {
+            helper.ExecuteQuery("SELECT * FROM SV WHERE MASV LIKE '%" + MSVTK + "%'");
+        }
      }
 }
