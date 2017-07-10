@@ -30,5 +30,19 @@ namespace QLKTX.SV
         {
             dal.suasv(MSV, MKTX, H, T, CMND, GT, NS, SDT, QQ, NLHD, Mphong, Hinh, HTGH, SDTGH, QH, NN);
         }
+
+        public void timkiemSV(string MSVTK)
+        {
+            dal.timkiemsv(MSVTK);
+        }
+        public DTO[] TIMsv(string MSVTK)
+        {
+            return dal.TIMSV(MSVTK);
+        }
+        public void THONGKESV()
+        {
+             dal.thongkeSV();
+        }
+
     }
 }
