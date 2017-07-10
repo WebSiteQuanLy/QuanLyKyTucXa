@@ -19,11 +19,11 @@ namespace QLKTX.SV
         public string Quequan { get; set; }//lấy quê quán của sinh viên từ CSDl
         public DateTime Ngaylamhopdong { get; set; }//lấy ngày ngày làm hợp đồng phòng của sinh viên từ CSDl
         public string MaPhong { get; set; }//lấy Mã phòng của sinh viên từ CSDl
-        public string Hinh { get; set; }//lấy ngày sinh của sinh viên từ CSDl
-        public string Hotengh { get; set; }
-        public string Sdtgh { get; set; }
-        public string Quanhe { get; set; }
-        public string Nghenghiep { get; set; }
+        public string Hinh { get; set; }//lấy hình của sinh viên từ CSDl
+        public string Hotengh { get; set; }//lấy họ tên người giam hộ của sinh viên từ CSDl
+        public string Sdtgh { get; set; }//lấy số điện thoại liên hệ của người giám hộ từ CSDl
+        public string Quanhe { get; set; }//lấy quan hệ của người giám hộ sinh viên từ CSDl
+        public string Nghenghiep { get; set; }//lấy nghề nghiệp của người giám hộ từ CSDl
 
     }
 }
