@@ -68,5 +68,9 @@ namespace QLKTX.SV
             helper.ExecuteQuery("INSERT INTO SV VALUES('" + MSV + "','" + MKTX + "','" + H + "','" + T + "','" + CMND + "','" + GT + "','" + NS + "','" + SDT + "','" + QQ + "','" + NLHD + "','" + Mphong + "','" + Hinh + "','" + HTGH + "','" + SDTGH + "','" + QH + "','" + NN + "')");
 
         }
+        public void xoasv(string MSV)
+        {
+            helper.ExecuteQuery("DELETE FROM SV WHERE MaSV='" + MSV + "'");
+        }
      }
 }
