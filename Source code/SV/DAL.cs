@@ -72,5 +72,9 @@ namespace QLKTX.SV
         {
             helper.ExecuteQuery("DELETE FROM SV WHERE MaSV='" + MSV + "'");
         }
+        public void suasv(string MSV, string MKTX, string H, string T, string CMND, bool GT, DateTime NS, string SDT, string QQ, DateTime NLHD, string Mphong, string Hinh, string HTGH, string SDTGH, string QH, string NN)
+        {
+            helper.ExecuteQuery("UPDATE SV SET MaKTX ='" + MKTX + "',Ho='" + H + "',Ten='" + T + "',CMND='" + CMND + "',Gioitinh='" + GT + "',Ngaysinh='" + NS + "',SDT='" + SDT + "',Quequan='" + QQ + "',Ngaylamhopdong='" + NLHD + "',MaPhong='" + Mphong + "',Hinh='" + Hinh + "',Hotengh='" + HTGH + "',Sdtgh='" + SDTGH + "',Quanhe='" + QQ + "',Nghenghiep='" + NN + "' where MaSV ='" + MSV + "'");
+        }
      }
 }
