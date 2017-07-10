@@ -14,12 +14,12 @@ namespace QLKTX.SV
         public string Ten { get; set; }//lấy tên SV từ CSDl
         public string CMND { get; set; }//lấy số CMND từ CSDl
         public bool Gioitinh { get; set; }//lấy trường GT viên từ CSDl
-        public DateTime Ngaysinh { get; set; }
-        public string SDT { get; set; }
-        public string Quequan { get; set; }
-        public DateTime Ngaylamhopdong { get; set; }
-        public string MaPhong { get; set; }
-        public string Hinh { get; set; }
+        public DateTime Ngaysinh { get; set; }//lấy ngày sinh của sinh viên từ CSDl
+        public string SDT { get; set; }//lấy ngày sinh của sinh viên từ CSDl
+        public string Quequan { get; set; }//lấy quê quán của sinh viên từ CSDl
+        public DateTime Ngaylamhopdong { get; set; }//lấy ngày ngày làm hợp đồng phòng của sinh viên từ CSDl
+        public string MaPhong { get; set; }//lấy Mã phòng của sinh viên từ CSDl
+        public string Hinh { get; set; }//lấy ngày sinh của sinh viên từ CSDl
         public string Hotengh { get; set; }
         public string Sdtgh { get; set; }
         public string Quanhe { get; set; }
