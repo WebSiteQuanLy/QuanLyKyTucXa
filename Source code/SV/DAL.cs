@@ -29,6 +29,29 @@ namespace QLKTX.SV
             SV.Hotengh = row["Hotengh"].ToString().Trim();
             SV.Sdtgh = row["Sdtgh"].ToString().Trim();
             SV.Quanhe = row["Quanhe"].ToString().Trim();
+            SV.Nghenghiep = row["Nghenghiep"].ToString().Trim();
+            SV.Hinh = row["Hinh"].ToString().Trim();
+            
+
+            return SV;
+        }
+
+	public DTO[] GetSV()
+        {
+            DTO[] listSV = null;
+            DataTable table = null;
+            table = helper.ExecuteQuery("Select * from SV");
+            int n = table.Rows.Count;
+            if (n == 0)
+            {
+                return null;
+            }
+            listSV = new DTO[n];
+            for (int i = 0; i < n; i++)
+            {
+                listSV[i] = ParseData(table.Rows[i]);
+            }
+            return listSV;
         }
      }
 }
