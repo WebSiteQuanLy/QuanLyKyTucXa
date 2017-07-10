@@ -26,5 +26,9 @@ namespace QLKTX.SV
             dal.xoasv(MSV);
         }
 
+        public void suasinhvien(string MSV, string MKTX, string H, string T, string CMND, bool GT, DateTime NS, string SDT, string QQ, DateTime NLHD, string Mphong, string Hinh, string HTGH, string SDTGH, string QH, string NN)
+        {
+            dal.suasv(MSV, MKTX, H, T, CMND, GT, NS, SDT, QQ, NLHD, Mphong, Hinh, HTGH, SDTGH, QH, NN);
+        }
     }
 }
