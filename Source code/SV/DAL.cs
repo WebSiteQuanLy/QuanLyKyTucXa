@@ -19,6 +19,16 @@ namespace QLKTX.SV
             SV.MaKTX = row["MaKTX"].ToString().Trim();
             SV.Ho = row["Ho"].ToString().Trim();
             SV.Ten = row["Ten"].ToString().Trim();
+            SV.CMND = row["CMND"].ToString().Trim();
+            SV.Gioitinh = (bool)row["Gioitinh"];
+            SV.Ngaysinh =(DateTime)row["Ngaysinh"];
+            SV.SDT = row["SDT"].ToString().Trim();
+            SV.Quequan = row["Quequan"].ToString().Trim();
+            SV.Ngaylamhopdong = (DateTime)row["Ngaylamhopdong"];
+            SV.MaPhong = row["MaPhong"].ToString().Trim();
+            SV.Hotengh = row["Hotengh"].ToString().Trim();
+            SV.Sdtgh = row["Sdtgh"].ToString().Trim();
+            SV.Quanhe = row["Quanhe"].ToString().Trim();
         }
      }
 }
