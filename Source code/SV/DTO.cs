@@ -8,12 +8,12 @@ namespace QLKTX.SV
 {
     public class DTO
     {
-        public string MaSV { get; set; }
-        public string MaKTX { get; set; }
-        public string Ho { get; set; }
-        public string Ten { get; set; }
-        public string CMND { get; set; }
-        public bool Gioitinh { get; set; }
+        public string MaSV { get; set; }//lấy mã SInh viên từ CSDl
+        public string MaKTX { get; set; }//lấy mã KTX từ CSDl
+        public string Ho { get; set; }//lấy Ho Sinh Viên từ CSDl
+        public string Ten { get; set; }//lấy tên SV từ CSDl
+        public string CMND { get; set; }//lấy số CMND từ CSDl
+        public bool Gioitinh { get; set; }//lấy trường GT viên từ CSDl
         public DateTime Ngaysinh { get; set; }
         public string SDT { get; set; }
         public string Quequan { get; set; }
