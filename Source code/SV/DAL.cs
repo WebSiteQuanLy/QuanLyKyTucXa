@@ -80,5 +80,23 @@ namespace QLKTX.SV
         {
             helper.ExecuteQuery("SELECT * FROM SV WHERE MASV LIKE '%" + MSVTK + "%'");
         }
+      
+        public DTO[] TIMSV(string MSVTK)
+        {
+            DTO[] LISTTIMSV = null;
+            DataTable table = null;
+            table = helper.ExecuteQuery("Select * from SV WHERE MASV LIKE '%" + MSVTK + "%'");
+            int n = table.Rows.Count;
+            if (n == 0)
+            {
+                return null;
+            }
+            LISTTIMSV = new DTO[n];
+            for (int i = 0; i < n; i++)
+            {
+                LISTTIMSV[i] = ParseData(table.Rows[i]);
+            }
+            return LISTTIMSV;
+        }
      }
 }
