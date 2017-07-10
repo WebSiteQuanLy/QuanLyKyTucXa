@@ -15,13 +15,13 @@ namespace QLKTX
 
         public DataHelper()
         {
-            _connection = new SqlConnection(@"Data Source=ASUS\SQLEXPRESS;Initial Catalog=QLKTX;Integrated Security=True");
+            _connection = new SqlConnection(@"Data Source=ASUS\SQLEXPRESS;Initial Catalog=QLKTX;Integrated Security=True");///Chuỗi kết nối với cơ sở dữ liệu
         }
 
         public DataTable ExecuteQuery(string query)
         {
-            DataTable table = new DataTable();
-
+            DataTable table = new DataTable(); ///Tạo 1 bảng ảo chứ dữ liệu 
+            ///Bắt ngoại lệ 
             try
             {
                 _connection.Open();
@@ -34,7 +34,7 @@ namespace QLKTX
             }
             finally
             {
-                _connection.Close();
+                _connection.Close();///Đóng kết nối
             }
             return table;
         }
