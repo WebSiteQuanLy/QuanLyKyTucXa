@@ -53,5 +53,20 @@ namespace QLKTX.SV
             }
             return listSV;
         }
+        /// <summary>
+        /// Thêm xóa sửa sinh viên 
+        /// </summary>
+        /// <param name="MP"></param>
+        /// <param name="MK"></param>
+        /// <param name="TP"></param>
+        /// <param name="LP"></param>
+        /// <param name="SNHT"></param>
+        /// <param name="SNTD"></param>
+        public void themsv(string MSV, string MKTX, string H,string T,string CMND,bool GT,DateTime NS,string SDT,string QQ,DateTime NLHD,string Mphong,string Hinh,string HTGH,string SDTGH,string QH,string NN)
+        {
+
+            helper.ExecuteQuery("INSERT INTO SV VALUES('" + MSV + "','" + MKTX + "','" + H + "','" + T + "','" + CMND + "','" + GT + "','" + NS + "','" + SDT + "','" + QQ + "','" + NLHD + "','" + Mphong + "','" + Hinh + "','" + HTGH + "','" + SDTGH + "','" + QH + "','" + NN + "')");
+
+        }
      }
 }
