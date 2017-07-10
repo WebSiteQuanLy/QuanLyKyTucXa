@@ -21,5 +21,10 @@ namespace QLKTX.SV
             dal.themsv(MSV,MKTX,H,T,CMND,GT,NS,SDT,QQ,NLHD,Mphong,Hinh,HTGH,SDTGH,QH,NN);
         }
 
+        public void xoasinhvien(string MSV)
+        {
+            dal.xoasv(MSV);
+        }
+
     }
 }
