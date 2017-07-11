@@ -72,10 +72,14 @@ namespace QLKTX.SV
             helper.ExecuteQuery("INSERT INTO SV VALUES('" + MSV + "','" + MKTX + "','" + H + "','" + T + "','" + CMND + "','" + GT + "','" + NS + "','" + SDT + "','" + QQ + "','" + NLHD + "','" + Mphong + "','" + Hinh + "','" + HTGH + "','" + SDTGH + "','" + QH + "','" + NN + "')");
 
         }
+
+	//Xóa một sinh viên có trong danh sách
         public void xoasv(string MSV)
         {
             helper.ExecuteQuery("DELETE FROM SV WHERE MaSV='" + MSV + "'");
         }
+
+	//Sửa thông tin một SV
         public void suasv(string MSV, string MKTX, string H, string T, string CMND, bool GT, DateTime NS, string SDT, string QQ, DateTime NLHD, string Mphong, string Hinh, string HTGH, string SDTGH, string QH, string NN)
         {
             helper.ExecuteQuery("UPDATE SV SET MaKTX ='" + MKTX + "',Ho='" + H + "',Ten='" + T + "',CMND='" + CMND + "',Gioitinh='" + GT + "',Ngaysinh='" + NS + "',SDT='" + SDT + "',Quequan='" + QQ + "',Ngaylamhopdong='" + NLHD + "',MaPhong='" + Mphong + "',Hinh='" + Hinh + "',Hotengh='" + HTGH + "',Sdtgh='" + SDTGH + "',Quanhe='" + QQ + "',Nghenghiep='" + NN + "' where MaSV ='" + MSV + "'");
