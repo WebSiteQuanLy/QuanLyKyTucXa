@@ -14,7 +14,8 @@ namespace QLKTX.SV
    
         private  DTO ParseData(DataRow row)
         {
-            DTO SV = new DTO();
+            DTO SV = new DTO();//tạo mưới một một kết nối với tầng DTO
+	//nhận truyền tải dữ liệu với tầng DTO
             SV.MaSV = row["MaSV"].ToString().Trim();
             SV.MaKTX = row["MaKTX"].ToString().Trim();
             SV.Ho = row["Ho"].ToString().Trim();
@@ -39,13 +40,14 @@ namespace QLKTX.SV
 	public DTO[] GetSV()
         {
             DTO[] listSV = null;
-            DataTable table = null;
-            table = helper.ExecuteQuery("Select * from SV");
+            DataTable table = null;//tạo một bảng ảo có gtri bằng null
+            table = helper.ExecuteQuery("Select * from SV");//lấy hết dữ liệu từ bảng SV
             int n = table.Rows.Count;
             if (n == 0)
             {
                 return null;
             }
+	//lấy dữ liệu vào tạo thành một bảng có số hàng là i
             listSV = new DTO[n];
             for (int i = 0; i < n; i++)
             {
@@ -62,6 +64,8 @@ namespace QLKTX.SV
         /// <param name="LP"></param>
         /// <param name="SNHT"></param>
         /// <param name="SNTD"></param>
+
+	//thêm mới một sinh viên
         public void themsv(string MSV, string MKTX, string H,string T,string CMND,bool GT,DateTime NS,string SDT,string QQ,DateTime NLHD,string Mphong,string Hinh,string HTGH,string SDTGH,string QH,string NN)
         {
 
