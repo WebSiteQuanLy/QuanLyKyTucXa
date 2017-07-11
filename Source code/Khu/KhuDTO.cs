@@ -8,8 +8,8 @@ namespace QLKTX.Khu
 {
     public class KhuDTO
     {
-        public string MaKhu {get;set;}
-        public string Tenkhu{get;set;}
+        public string MaKhu {get;set;}///dữ liệu mã khu trong bảng dữ liệu khu
+        public string Tenkhu{get;set;}///dữ liệu tên khu trong bảng dữ liệu khu
      
     }
 }
