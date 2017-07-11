@@ -84,6 +84,7 @@ namespace QLKTX.SV
         {
             helper.ExecuteQuery("UPDATE SV SET MaKTX ='" + MKTX + "',Ho='" + H + "',Ten='" + T + "',CMND='" + CMND + "',Gioitinh='" + GT + "',Ngaysinh='" + NS + "',SDT='" + SDT + "',Quequan='" + QQ + "',Ngaylamhopdong='" + NLHD + "',MaPhong='" + Mphong + "',Hinh='" + Hinh + "',Hotengh='" + HTGH + "',Sdtgh='" + SDTGH + "',Quanhe='" + QQ + "',Nghenghiep='" + NN + "' where MaSV ='" + MSV + "'");
         }
+	//tìm kiếm một sinh viên theo mã SV
         public void timkiemsv(string MSVTK)
         {
             helper.ExecuteQuery("SELECT * FROM SV WHERE MASV LIKE '%" + MSVTK + "%'");
@@ -106,7 +107,7 @@ namespace QLKTX.SV
             }
             return LISTTIMSV;
         }
-
+	//thống kê số sinh viên có trong ktx
         public void thongkeSV()
         {
             helper.ExecuteQuery("SELECT COUNT(*) FROM SV ");
