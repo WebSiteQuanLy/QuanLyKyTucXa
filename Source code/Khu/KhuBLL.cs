@@ -11,7 +11,7 @@ namespace QLKTX.Khu
         KhuDAL dal = new KhuDAL();
         public KhuDTO[] GetList()
         {
-            return dal.GetKhu();
+            return dal.GetKhu();///Trả về giá trị của bảng 
         }
     }
 }
