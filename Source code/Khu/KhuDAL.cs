@@ -18,3 +18,23 @@ namespace QLKTX.Khu
             khu.Tenkhu = row["TenKhu"].ToString().Trim();///Lấy kiểu dữ liệu tên khu
             return khu;
         }
+  public KhuDTO[] GetKhu()
+        {
+            KhuDTO[] listKhu = null;
+            DataTable table = null;
+            table = helper.ExecuteQuery("Select * from Khu");
+            int n = table.Rows.Count;
+            if (n == 0)
+            {
+                return null;
+            }
+            listKhu = new KhuDTO[n];
+            for (int i = 0; i < n; i++)
+            {
+                listKhu[i] = ParseData(table.Rows[i]);
+            }
+            return listKhu;
+        }
+
+    }
+}
