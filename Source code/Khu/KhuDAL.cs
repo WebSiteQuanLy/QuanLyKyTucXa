@@ -21,14 +21,14 @@ namespace QLKTX.Khu
   public KhuDTO[] GetKhu()
         {
             KhuDTO[] listKhu = null;
-            DataTable table = null;
-            table = helper.ExecuteQuery("Select * from Khu");
+            DataTable table = null;///Bảng ảo chứa giá trị khởi tạo bằng null
+            table = helper.ExecuteQuery("Select * from Khu");///Lấy toàn bộ dữ liệu từ bảng khu
             int n = table.Rows.Count;
             if (n == 0)
             {
                 return null;
             }
-            listKhu = new KhuDTO[n];
+            listKhu = new KhuDTO[n];///Duyệt dữ liệu và tổ chức thành bảng
             for (int i = 0; i < n; i++)
             {
                 listKhu[i] = ParseData(table.Rows[i]);
