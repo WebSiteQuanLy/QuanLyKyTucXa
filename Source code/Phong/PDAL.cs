@@ -10,8 +10,20 @@ using System.Data.OleDb;
 
 namespace QLKTX.Phong
 {
-    class PDAL
+    public class PDAL
     {
-        
+        DataHelper helper = new DataHelper();
+        private PDTO ParseData(DataRow row)
+        {
+            PDTO Phong = new PDTO();
+            Phong.Maphong = row["Maphong"].ToString().Trim();
+            Phong.Makhu = row["Makhu"].ToString().Trim();
+            Phong.Tenphong = row["Tenphong"].ToString().Trim();
+            Phong.Loaiphong = (bool)row["Loaiphong"];
+            Phong.Songuoihientai = (int)row["Songuoihientai"];
+            Phong.Songuoitoida = (int)row["Songuoitoida"];
+            return Phong;
+        }
+
      }
 }
