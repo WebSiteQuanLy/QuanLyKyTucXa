@@ -24,6 +24,24 @@ namespace QLKTX.Phong
             Phong.Songuoitoida = (int)row["Songuoitoida"];
             return Phong;
         }
+         public PDTO[] Getphong()
+        {
+            PDTO[] listphong = null;
+            DataTable table = null;
+            table = helper.ExecuteQuery("select * from Phong");
+
+            int n = table.Rows.Count;
+            if (n == 0)
+            {
+                return null;
+            }
+            listphong = new PDTO[n];
+            for (int i = 0; i < n; i++)
+            {
+                listphong[i] = ParseData(table.Rows[i]);
+            }
+            return listphong;
+        }
 
      }
 }
