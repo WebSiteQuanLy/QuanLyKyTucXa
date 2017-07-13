@@ -65,5 +65,24 @@ namespace QLKTX.Phong
         {
             helper.ExecuteQuery("UPDATE Phong SET Makhu='"+ Mk +"',Tenphong ='" + Tp + "',Loaiphong='"+Lp+"',Songuoihientai='"+Snht+"',Songuoitoida='"+Sntd+"' where Maphong ='" + Mp + "'");
         }
+        public PDTO[] phongTK(string MPTK)
+        {
+            PDTO[] listphongTK = null;
+            DataTable table = null;
+            table = helper.ExecuteQuery("select * from Phong WHERE Maphong LIKE '%" + MPTK + "%'");
+
+            int n = table.Rows.Count;
+            if (n == 0)
+            {
+                return null;
+            }
+            listphongTK = new PDTO[n];
+            for (int i = 0; i < n; i++)
+            {
+                listphongTK[i] = ParseData(table.Rows[i]);
+            }
+            return listphongTK;
+        }
+
      }
 }
