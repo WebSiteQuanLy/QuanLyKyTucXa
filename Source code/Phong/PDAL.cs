@@ -12,16 +12,16 @@ namespace QLKTX.Phong
 {
     public class PDAL
     {
-        DataHelper helper = new DataHelper();
+        DataHelper helper = new DataHelper(); /// tạo mới một helper
         private PDTO ParseData(DataRow row)
         {
             PDTO Phong = new PDTO();
-            Phong.Maphong = row["Maphong"].ToString().Trim();
-            Phong.Makhu = row["Makhu"].ToString().Trim();
-            Phong.Tenphong = row["Tenphong"].ToString().Trim();
-            Phong.Loaiphong = (bool)row["Loaiphong"];
-            Phong.Songuoihientai = (int)row["Songuoihientai"];
-            Phong.Songuoitoida = (int)row["Songuoitoida"];
+            Phong.Maphong = row["Maphong"].ToString().Trim();///Lấy kiểu dữ liệu Mã phòng
+            Phong.Makhu = row["Makhu"].ToString().Trim();///Lấy kiểu dữ liệu Mã khu
+            Phong.Tenphong = row["Tenphong"].ToString().Trim();///Lấy kiểu dữ liệu tên phòng
+            Phong.Loaiphong = (bool)row["Loaiphong"];///Lấy kiểu dữ liệu loại phòng
+            Phong.Songuoihientai = (int)row["Songuoihientai"];///Lấy kiểu dữ liệu số người hiện tại
+            Phong.Songuoitoida = (int)row["Songuoitoida"];///Lấy kiểu dữ liệu số người tối đa
             return Phong;
         }
          public PDTO[] Getphong()
