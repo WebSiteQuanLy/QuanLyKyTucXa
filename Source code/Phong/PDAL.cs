@@ -27,15 +27,15 @@ namespace QLKTX.Phong
          public PDTO[] Getphong()
         {
             PDTO[] listphong = null;
-            DataTable table = null;
-            table = helper.ExecuteQuery("select * from Phong");
+            DataTable table = null;///Tạo bảng ảo chứa giá trị khởi tạo bằng null
+            table = helper.ExecuteQuery("select * from Phong");///Lấy toàn bộ dữ liệu từ bảng phòng
 
             int n = table.Rows.Count;
             if (n == 0)
             {
                 return null;
             }
-            listphong = new PDTO[n];
+            listphong = new PDTO[n];///Duyệt dữ liệu và tổ chức thành bảng
             for (int i = 0; i < n; i++)
             {
                 listphong[i] = ParseData(table.Rows[i]);
@@ -51,16 +51,20 @@ namespace QLKTX.Phong
         /// <param name="LP"></param>
         /// <param name="SNHT"></param>
         /// <param name="SNTD"></param>
+
+	//code thêm phòng
         public void themphong(string MP, string MK, string TP, bool LP, int SNHT, int SNTD)
         {
 
                 helper.ExecuteQuery("INSERT INTO Phong VALUES('" + MP + "','" + MK + "','" + TP + "','" + LP + "','" + SNHT + "','" + SNTD + "')");
                
         }
+	//code xóa phòng
         public void xoaph(string mp)
         {
             helper.ExecuteQuery("DELETE FROM Phong WHERE Maphong='" + mp + "'");
         }
+	//code thêm phòng
         public void suaph(string Mp, string Mk, string Tp, bool Lp, int Snht, int Sntd)
         {
             helper.ExecuteQuery("UPDATE Phong SET Makhu='"+ Mk +"',Tenphong ='" + Tp + "',Loaiphong='"+Lp+"',Songuoihientai='"+Snht+"',Songuoitoida='"+Sntd+"' where Maphong ='" + Mp + "'");
