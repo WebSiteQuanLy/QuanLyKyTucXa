@@ -42,6 +42,20 @@ namespace QLKTX.Phong
             }
             return listphong;
         }
+        /// <summary>
+        /// them xoa sưa 
+        /// </summary>
+        /// <param name="MP"></param>
+        /// <param name="MK"></param>
+        /// <param name="TP"></param>
+        /// <param name="LP"></param>
+        /// <param name="SNHT"></param>
+        /// <param name="SNTD"></param>
+        public void themphong(string MP, string MK, string TP, bool LP, int SNHT, int SNTD)
+        {
 
+                helper.ExecuteQuery("INSERT INTO Phong VALUES('" + MP + "','" + MK + "','" + TP + "','" + LP + "','" + SNHT + "','" + SNTD + "')");
+               
+        }
      }
 }
