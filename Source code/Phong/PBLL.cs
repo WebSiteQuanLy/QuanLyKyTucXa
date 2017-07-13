@@ -29,5 +29,9 @@ namespace QLKTX.Phong
             Ph.suaph(Mp, Mk, Tp, Lp, Snht, Sntd);
         }
 
+         public PDTO[] TKPHONG(string MPTK)
+        {
+            return Ph.phongTK(MPTK);
+        }
     }
 }
