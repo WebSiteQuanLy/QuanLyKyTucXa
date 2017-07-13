@@ -57,5 +57,13 @@ namespace QLKTX.Phong
                 helper.ExecuteQuery("INSERT INTO Phong VALUES('" + MP + "','" + MK + "','" + TP + "','" + LP + "','" + SNHT + "','" + SNTD + "')");
                
         }
+        public void xoaph(string mp)
+        {
+            helper.ExecuteQuery("DELETE FROM Phong WHERE Maphong='" + mp + "'");
+        }
+        public void suaph(string Mp, string Mk, string Tp, bool Lp, int Snht, int Sntd)
+        {
+            helper.ExecuteQuery("UPDATE Phong SET Makhu='"+ Mk +"',Tenphong ='" + Tp + "',Loaiphong='"+Lp+"',Songuoihientai='"+Snht+"',Songuoitoida='"+Sntd+"' where Maphong ='" + Mp + "'");
+        }
      }
 }
