@@ -25,7 +25,8 @@ namespace QLKTX.Dangnhap
 
  	public bool CheckDN(string user,string Pass)
         {
-            DataTable table = null;
+            DataTable table = null;///tạo bảng ảo có giá trị null
+		//lấy dữ liệu và so sánh dữ liệu
             table = helper.ExecuteQuery("Select * From Taikhoan where username='" + user  + "' and Pass='" + Pass + "' and Quyen='Admin'");
             int n = table.Rows.Count;
             if (n == 0)
