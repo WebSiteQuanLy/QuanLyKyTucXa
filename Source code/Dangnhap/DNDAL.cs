@@ -22,6 +22,17 @@ namespace QLKTX.Dangnhap
             DN.SDT = row["SDT"].ToString().Trim();
             return DN;
         }
- 
+
+ 	public bool CheckDN(string user,string Pass)
+        {
+            DataTable table = null;
+            table = helper.ExecuteQuery("Select * From Taikhoan where username='" + user  + "' and Pass='" + Pass + "' and Quyen='Admin'");
+            int n = table.Rows.Count;
+            if (n == 0)
+            {
+                return false;
+            }
+            return true;
+        }
     }
 }
