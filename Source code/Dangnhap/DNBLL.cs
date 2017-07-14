@@ -12,7 +12,7 @@ namespace QLKTX.Dangnhap
        DNDAL dal = new DNDAL();
         public bool CheckDN(string user,string Pass)
         {
-            return dal.CheckDN(user,Pass);
+            return dal.CheckDN(user,Pass);//trả về giá trị của username, pass
         }
     }
 }
