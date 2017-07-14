@@ -1,0 +1,13 @@
+E:\C#\QLKTX\obj\Debug\QLKTX.csprojResolveAssemblyReference.cache
+E:\C#\QLKTX\obj\Debug\QLKTX.dangnhap.resources
+E:\C#\QLKTX\obj\Debug\QLKTX.Trangchu.resources
+E:\C#\QLKTX\obj\Debug\QLKTX.Properties.Resources.resources
+E:\C#\QLKTX\obj\Debug\QLKTX.csproj.GenerateResource.Cache
+E:\C#\QLKTX\bin\Debug\QLKTX.exe.config
+E:\C#\QLKTX\bin\Debug\QLKTX.exe
+E:\C#\QLKTX\bin\Debug\QLKTX.pdb
+E:\C#\QLKTX\obj\Debug\QLKTX.exe
+E:\C#\QLKTX\obj\Debug\QLKTX.pdb
+E:\C#\QLKTX\obj\Debug\QLKTX.xinchao.resources
+E:\C#\QLKTX\obj\Debug\QLKTX.phong.resources
+E:\C#\QLKTX\obj\Debug\QLKTX.Qlysv.resources
