@@ -7,8 +7,12 @@ using System.Threading.Tasks;
 
 namespace QLKTX.Dangnhap
 {
-    class DNBLL
+    public class DNBLL
     {
-      
+       DNDAL dal = new DNDAL();
+        public bool CheckDN(string user,string Pass)
+        {
+            return dal.CheckDN(user,Pass);
+        }
     }
 }
