@@ -90,4 +90,5 @@ giúp cho cán bộ quản lí nắm rõ thông tin cần thiết.
   <li>Tra cứu, thống kê kết quả,...</li>
 </ul>
 
+<p align="center"><img src="http://file.hstatic.net/1000192210/product/upload_076262f72c1e4dd1a104b92aff2e5d01.jpg"></p>  
  **GOOKLUCK**
