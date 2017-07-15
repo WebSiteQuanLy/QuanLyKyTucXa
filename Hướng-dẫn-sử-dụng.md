@@ -19,8 +19,11 @@ kiểm soát và hỗ trợ đầy đủ các chức năng như đã phân quy�
  Muốn sử dụng được phần mềm phải có tên đăng nhập và mật khẩu.
 
 <li>Quản lý phòng</li>
+
 	+Tổng, thông tin phòng.
+
 	+Thêm, xóa, sửa, hiển thị phòng.
+
   <li>Quản lý sinh viên</li>
 	+Tổng, thông tin sinh viên.
 	+Thêm, xóa, sửa, hiển thị thông tin sinh viên.
