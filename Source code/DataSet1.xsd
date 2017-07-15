@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="QLKTXConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="QLKTXConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.QLKTX.Properties.Settings.GlobalReference.Default.QLKTXConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SVTableAdapter" GeneratorDataComponentClassName="SVTableAdapter" Name="SV" UserDataComponentName="SVTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QLKTXConnectionString (Settings)" DbObjectName="QLKTX.dbo.SV" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT MaSV, MaKTX, Ho, Ten, CMND, Gioitinh, Ngaysinh, SDT, Quequan, Ngaylamhopdong, MaPhong, Hotengh, Sdtgh, Quanhe, Nghenghiep 
+FROM dbo.SV</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MaSV" DataSetColumn="MaSV" />
+              <Mapping SourceColumn="MaKTX" DataSetColumn="MaKTX" />
+              <Mapping SourceColumn="Ho" DataSetColumn="Ho" />
+              <Mapping SourceColumn="Ten" DataSetColumn="Ten" />
+              <Mapping SourceColumn="CMND" DataSetColumn="CMND" />
+              <Mapping SourceColumn="Gioitinh" DataSetColumn="Gioitinh" />
+              <Mapping SourceColumn="Ngaysinh" DataSetColumn="Ngaysinh" />
+              <Mapping SourceColumn="SDT" DataSetColumn="SDT" />
+              <Mapping SourceColumn="Quequan" DataSetColumn="Quequan" />
+              <Mapping SourceColumn="Ngaylamhopdong" DataSetColumn="Ngaylamhopdong" />
+              <Mapping SourceColumn="MaPhong" DataSetColumn="MaPhong" />
+              <Mapping SourceColumn="Hotengh" DataSetColumn="Hotengh" />
+              <Mapping SourceColumn="Sdtgh" DataSetColumn="Sdtgh" />
+              <Mapping SourceColumn="Quanhe" DataSetColumn="Quanhe" />
+              <Mapping SourceColumn="Nghenghiep" DataSetColumn="Nghenghiep" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SV" msprop:Generator_TableClassName="SVDataTable" msprop:Generator_TableVarName="tableSV" msprop:Generator_TablePropName="SV" msprop:Generator_RowDeletingName="SVRowDeleting" msprop:Generator_RowChangingName="SVRowChanging" msprop:Generator_RowEvHandlerName="SVRowChangeEventHandler" msprop:Generator_RowDeletedName="SVRowDeleted" msprop:Generator_UserTableName="SV" msprop:Generator_RowChangedName="SVRowChanged" msprop:Generator_RowEvArgName="SVRowChangeEvent" msprop:Generator_RowClassName="SVRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MaSV" msprop:Generator_ColumnVarNameInTable="columnMaSV" msprop:Generator_ColumnPropNameInRow="MaSV" msprop:Generator_ColumnPropNameInTable="MaSVColumn" msprop:Generator_UserColumnName="MaSV">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MaKTX" msprop:Generator_ColumnVarNameInTable="columnMaKTX" msprop:Generator_ColumnPropNameInRow="MaKTX" msprop:Generator_ColumnPropNameInTable="MaKTXColumn" msprop:Generator_UserColumnName="MaKTX">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Ho" msprop:Generator_ColumnVarNameInTable="columnHo" msprop:Generator_ColumnPropNameInRow="Ho" msprop:Generator_ColumnPropNameInTable="HoColumn" msprop:Generator_UserColumnName="Ho" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Ten" msprop:Generator_ColumnVarNameInTable="columnTen" msprop:Generator_ColumnPropNameInRow="Ten" msprop:Generator_ColumnPropNameInTable="TenColumn" msprop:Generator_UserColumnName="Ten" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CMND" msprop:Generator_ColumnVarNameInTable="columnCMND" msprop:Generator_ColumnPropNameInRow="CMND" msprop:Generator_ColumnPropNameInTable="CMNDColumn" msprop:Generator_UserColumnName="CMND" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Gioitinh" msprop:Generator_ColumnVarNameInTable="columnGioitinh" msprop:Generator_ColumnPropNameInRow="Gioitinh" msprop:Generator_ColumnPropNameInTable="GioitinhColumn" msprop:Generator_UserColumnName="Gioitinh" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Ngaysinh" msprop:Generator_ColumnVarNameInTable="columnNgaysinh" msprop:Generator_ColumnPropNameInRow="Ngaysinh" msprop:Generator_ColumnPropNameInTable="NgaysinhColumn" msprop:Generator_UserColumnName="Ngaysinh" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SDT" msprop:Generator_ColumnVarNameInTable="columnSDT" msprop:Generator_ColumnPropNameInRow="SDT" msprop:Generator_ColumnPropNameInTable="SDTColumn" msprop:Generator_UserColumnName="SDT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Quequan" msprop:Generator_ColumnVarNameInTable="columnQuequan" msprop:Generator_ColumnPropNameInRow="Quequan" msprop:Generator_ColumnPropNameInTable="QuequanColumn" msprop:Generator_UserColumnName="Quequan" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Ngaylamhopdong" msprop:Generator_ColumnVarNameInTable="columnNgaylamhopdong" msprop:Generator_ColumnPropNameInRow="Ngaylamhopdong" msprop:Generator_ColumnPropNameInTable="NgaylamhopdongColumn" msprop:Generator_UserColumnName="Ngaylamhopdong" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="MaPhong" msprop:Generator_ColumnVarNameInTable="columnMaPhong" msprop:Generator_ColumnPropNameInRow="MaPhong" msprop:Generator_ColumnPropNameInTable="MaPhongColumn" msprop:Generator_UserColumnName="MaPhong" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Hotengh" msprop:Generator_ColumnVarNameInTable="columnHotengh" msprop:Generator_ColumnPropNameInRow="Hotengh" msprop:Generator_ColumnPropNameInTable="HotenghColumn" msprop:Generator_UserColumnName="Hotengh" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sdtgh" msprop:Generator_ColumnVarNameInTable="columnSdtgh" msprop:Generator_ColumnPropNameInRow="Sdtgh" msprop:Generator_ColumnPropNameInTable="SdtghColumn" msprop:Generator_UserColumnName="Sdtgh" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Quanhe" msprop:Generator_ColumnVarNameInTable="columnQuanhe" msprop:Generator_ColumnPropNameInRow="Quanhe" msprop:Generator_ColumnPropNameInTable="QuanheColumn" msprop:Generator_UserColumnName="Quanhe" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Nghenghiep" msprop:Generator_ColumnVarNameInTable="columnNghenghiep" msprop:Generator_ColumnPropNameInRow="Nghenghiep" msprop:Generator_ColumnPropNameInTable="NghenghiepColumn" msprop:Generator_UserColumnName="Nghenghiep" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SV" />
+      <xs:field xpath="mstns:MaSV" />
+      <xs:field xpath="mstns:MaKTX" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
