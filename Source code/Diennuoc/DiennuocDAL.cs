@@ -23,5 +23,22 @@ namespace QLKTX.Diennuoc
           
             return DN;
         }
+         public DiennuocDTO[] GetDN()
+        {
+            DiennuocDTO[] listDN = null;
+            DataTable table = null;/// tạo bảng ảo có gtri null
+            table = helper.ExecuteQuery("Select * from Diennuoc");//lấy dữ liệu bảng điện nước
+            int n = table.Rows.Count;
+            if (n == 0)
+            {
+                return null;
+            }
+            listDN = new DiennuocDTO[n];//duyệt dữ liệu và tổ chức thành bảng
+            for (int i = 0; i < n; i++)
+            {
+                listDN[i] = ParseData(table.Rows[i]);
+            }
+            return listDN;
+        }
     }
 }
