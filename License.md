@@ -1,6 +1,6 @@
 ﻿## Giấy phép của MIT (MIT)
 
-MIT License
+MIT License(https://help.github.com/articles/licensing-a-repository/#disclaimer)
 
 <ul>
 <li> Visual Studio 2013 (https://msdn.microsoft.com/en-us/library/dd831853(v=vs.120).aspx)</li>
