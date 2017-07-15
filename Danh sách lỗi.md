@@ -4,8 +4,10 @@ Sau khi đã kiểm nghiệm phần mềm "Quản lý ký túc xá sinh viên Kh
 1. 
 
 Danh sách các lỗi:
-	+ Thiết kế lỗi khi chọn hình sinh viên
-	+ Hiển thị hình ảnh bị lỗi khi chạy chương trình
-	+ Xử lý bắt lỗi còn chung chung.
-	+ Chưa giải quyết lỗi được rõ ràng 
-	+ Quá trình làm thiết kế chồng form, khó sửa chữa.
+<ul>
+	<li> Thiết kế lỗi khi chọn hình sinh viên </li>
+	<li> Hiển thị hình ảnh bị lỗi khi chạy chương trình </li>
+	<li> Xử lý bắt lỗi còn chung chung.</li>
+	<li> Chưa giải quyết lỗi được rõ ràng </li>
+	<li> Quá trình làm thiết kế chồng form, khó sửa chữa. </li>
+</ul>
