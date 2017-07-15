@@ -169,6 +169,7 @@
             this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.txtthongkesinhvien = new System.Windows.Forms.TextBox();
             this.label33 = new System.Windows.Forms.Label();
+            this.inDanhSáchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -322,7 +323,8 @@
             this.tìmKiếmToolStripMenuItem,
             this.tìmKiếmToolStripMenuItem1,
             this.giớiThiệuVềKTXToolStripMenuItem,
-            this.toolStripMenuItem2});
+            this.toolStripMenuItem2,
+            this.inDanhSáchToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1250, 42);
@@ -629,7 +631,7 @@
             this.label39.AutoSize = true;
             this.label39.Location = new System.Drawing.Point(6, 37);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(125, 16);
+            this.label39.Size = new System.Drawing.Size(131, 16);
             this.label39.TabIndex = 0;
             this.label39.Text = "Nhập Mã phòng :";
             // 
@@ -700,7 +702,7 @@
             this.label38.AutoSize = true;
             this.label38.Location = new System.Drawing.Point(6, 37);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(102, 16);
+            this.label38.Size = new System.Drawing.Size(109, 16);
             this.label38.TabIndex = 0;
             this.label38.Text = "Nhập mã SV :";
             // 
@@ -1469,7 +1471,7 @@
             this.label44.AutoSize = true;
             this.label44.Location = new System.Drawing.Point(427, 176);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(125, 16);
+            this.label44.Size = new System.Drawing.Size(132, 16);
             this.label44.TabIndex = 17;
             this.label44.Text = "Chỉ số nước mới :";
             // 
@@ -1478,7 +1480,7 @@
             this.label43.AutoSize = true;
             this.label43.Location = new System.Drawing.Point(430, 118);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(122, 16);
+            this.label43.Size = new System.Drawing.Size(129, 16);
             this.label43.TabIndex = 16;
             this.label43.Text = "Chỉ số điện mới :";
             // 
@@ -1501,7 +1503,7 @@
             this.label42.AutoSize = true;
             this.label42.Location = new System.Drawing.Point(492, 55);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(60, 16);
+            this.label42.Size = new System.Drawing.Size(62, 16);
             this.label42.TabIndex = 9;
             this.label42.Text = "Tháng :";
             // 
@@ -1531,7 +1533,7 @@
             this.label41.AutoSize = true;
             this.label41.Location = new System.Drawing.Point(41, 183);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(116, 16);
+            this.label41.Size = new System.Drawing.Size(123, 16);
             this.label41.TabIndex = 5;
             this.label41.Text = "Chỉ số nước cũ :";
             // 
@@ -1540,7 +1542,7 @@
             this.label40.AutoSize = true;
             this.label40.Location = new System.Drawing.Point(44, 118);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(113, 16);
+            this.label40.Size = new System.Drawing.Size(120, 16);
             this.label40.TabIndex = 4;
             this.label40.Text = "Chỉ số điện cũ :";
             // 
@@ -1549,7 +1551,7 @@
             this.label32.AutoSize = true;
             this.label32.Location = new System.Drawing.Point(73, 58);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(84, 16);
+            this.label32.Size = new System.Drawing.Size(88, 16);
             this.label32.TabIndex = 3;
             this.label32.Text = "Mã phòng :";
             // 
@@ -1722,6 +1724,14 @@
             this.label33.Size = new System.Drawing.Size(195, 13);
             this.label33.TabIndex = 0;
             this.label33.Text = "Tổng số sinh viên có trong KTX :";
+            // 
+            // inDanhSáchToolStripMenuItem
+            // 
+            this.inDanhSáchToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("inDanhSáchToolStripMenuItem.Image")));
+            this.inDanhSáchToolStripMenuItem.Name = "inDanhSáchToolStripMenuItem";
+            this.inDanhSáchToolStripMenuItem.Size = new System.Drawing.Size(103, 38);
+            this.inDanhSáchToolStripMenuItem.Text = "In Danh sách";
+            this.inDanhSáchToolStripMenuItem.Click += new System.EventHandler(this.inDanhSáchToolStripMenuItem_Click);
             // 
             // Trangchu
             // 
@@ -1938,6 +1948,7 @@
         private System.Windows.Forms.Label label45;
         private System.Windows.Forms.Label label46;
         private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.ToolStripMenuItem inDanhSáchToolStripMenuItem;
 
     }
 }

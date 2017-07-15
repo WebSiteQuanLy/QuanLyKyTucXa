@@ -806,5 +806,10 @@ namespace QLKTX
         {
 
         } 
+         private void inDanhSáchToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DSSV ds = new DSSV();
+            ds.Show();
+        } 
     }
 }
