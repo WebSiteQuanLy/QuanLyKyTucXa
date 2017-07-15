@@ -24,3 +24,4 @@ Các nút button sẽ mang id bắt đầu là: btn
 Các lable sẽ mang id bắt đầu là :lbl
 Các textbox sẽ mang id bắt đầu là :txt
 Các DataGridView sẽ mang id bắt đầu là: dgv
+.
