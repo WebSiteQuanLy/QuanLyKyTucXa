@@ -40,5 +40,21 @@ namespace QLKTX.Diennuoc
             }
             return listDN;
         }
+	//Lưu điện nước
+           public void luudiennuoc(string MP, DateTime TH, int CSDC, int CSDM, int CSNC, int CSNM)
+        {
+
+            helper.ExecuteQuery("INSERT INTO Diennuoc VALUES('" + MP + "','" + TH + "','" + CSDC + "','" + CSDM + "','" + CSNC + "','" + CSNM + "')");
+
+        }
+	//sửa chỉ số điện nước
+        public void suadiennuoc(string MP, DateTime TH, int CSDC, int CSDM, int CSNC, int CSNM)
+        {
+            helper.ExecuteQuery("UPDATE  Diennuoc SET Thang='" + TH + "',CScudien='" + CSDC + "',CSmoidien='" + CSDM + "',CScunuoc='" + CSNC + "',CSmoinuoc='" + CSNM + "'where Maphong ='" + MP + "'");
+        }
+        public void xoadiennuoc(string MP)
+        {
+            helper.ExecuteQuery("DELETE FROM Diennuoc WHERE Maphong='" + MP + "'");
+        }
     }
 }
