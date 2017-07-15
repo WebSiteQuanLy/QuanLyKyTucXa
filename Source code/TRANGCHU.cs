@@ -811,5 +811,11 @@ namespace QLKTX
             DSSV ds = new DSSV();
             ds.Show();
         } 
+
+        private void inDanhSáchĐiệnNướcToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DSDienNuoc Diennuoc = new DSDienNuoc();
+            Diennuoc.Show();
+        } 
     }
 }
