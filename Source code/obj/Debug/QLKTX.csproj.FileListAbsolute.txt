@@ -11,3 +11,15 @@ E:\C#\QLKTX\obj\Debug\QLKTX.pdb
 E:\C#\QLKTX\obj\Debug\QLKTX.xinchao.resources
 E:\C#\QLKTX\obj\Debug\QLKTX.phong.resources
 E:\C#\QLKTX\obj\Debug\QLKTX.Qlysv.resources
+C:\Users\Mau Bao\Desktop\WebSiteQuanLyHocTapHocSinhTieuHoc\Source code\bin\Debug\QLKTX.exe.config
+C:\Users\Mau Bao\Desktop\WebSiteQuanLyHocTapHocSinhTieuHoc\Source code\obj\Debug\QLKTX.exe
+C:\Users\Mau Bao\Desktop\WebSiteQuanLyHocTapHocSinhTieuHoc\Source code\obj\Debug\QLKTX.pdb
+C:\Users\Mau Bao\Desktop\WebSiteQuanLyHocTapHocSinhTieuHoc\Source code\obj\Debug\QLKTX.csprojResolveAssemblyReference.cache
+C:\Users\Mau Bao\Desktop\WebSiteQuanLyHocTapHocSinhTieuHoc\Source code\obj\Debug\QLKTX.dangnhap.resources
+C:\Users\Mau Bao\Desktop\WebSiteQuanLyHocTapHocSinhTieuHoc\Source code\obj\Debug\QLKTX.DSSV.resources
+C:\Users\Mau Bao\Desktop\WebSiteQuanLyHocTapHocSinhTieuHoc\Source code\obj\Debug\QLKTX.Trangchu.resources
+C:\Users\Mau Bao\Desktop\WebSiteQuanLyHocTapHocSinhTieuHoc\Source code\obj\Debug\QLKTX.Properties.Resources.resources
+C:\Users\Mau Bao\Desktop\WebSiteQuanLyHocTapHocSinhTieuHoc\Source code\obj\Debug\QLKTX.xinchao.resources
+C:\Users\Mau Bao\Desktop\WebSiteQuanLyHocTapHocSinhTieuHoc\Source code\obj\Debug\QLKTX.csproj.GenerateResource.Cache
+C:\Users\Mau Bao\Desktop\WebSiteQuanLyHocTapHocSinhTieuHoc\Source code\obj\Debug\RdlCompile.cache
+C:\Users\Mau Bao\Desktop\WebSiteQuanLyHocTapHocSinhTieuHoc\Source code\obj\Debug\RdlCompile.compiled
