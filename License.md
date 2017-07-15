@@ -1,4 +1,7 @@
 ﻿## Giấy phép của MIT (MIT)
+
+MIT License
+
 <ul>
 <li> Visual Studio 2013 (https://msdn.microsoft.com/en-us/library/dd831853(v=vs.120).aspx)</li>
 <li> Visual Studio Community 2013 (https://www.visualstudio.com/en-us/news/releasenotes/vs2013-community-vs)</li>
