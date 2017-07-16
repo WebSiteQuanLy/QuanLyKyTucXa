@@ -7,8 +7,8 @@
 
 **ĐHCN1B**
 
-<p align="center"><img src="![building anime landscape 03](https://user-images.githubusercontent.com/27652065/28244574-3e2e96c8-6a18-11e7-8b05-413d7bd6112b.jpg)
-"></p>
+<p align="center">![building anime landscape 03](https://user-images.githubusercontent.com/27652065/28244574-3e2e96c8-6a18-11e7-8b05-413d7bd6112b.jpg)
+</p>
 
 ## MÔ TẢ DỰ ÁN
 
