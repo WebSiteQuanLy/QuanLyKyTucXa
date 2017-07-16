@@ -7,7 +7,8 @@
 
 **ĐHCN1B**
 
-<p align="center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6GBJ3HZ2QOPov7y4VWYikZfERbhGK5KTr7Xs0Qud_4oKh00B61g"></p>
+<p align="center"><img src="![building anime landscape 03](https://user-images.githubusercontent.com/27652065/28244574-3e2e96c8-6a18-11e7-8b05-413d7bd6112b.jpg)
+"></p>
 
 ## MÔ TẢ DỰ ÁN
 
@@ -98,21 +99,31 @@ giúp cho cán bộ quản lí nắm rõ thông tin cần thiết.
 
 ## THÔNG TIN TỔ CHỨC MÃ NGUỒN 
 
+<li>Nội dung chi tiết</li>
+
 <a>https://github.com/WebSiteQuanLy/QuanLyKyTucXa/blob/master/Th%C3%B4ng%20tin%20v%E1%BB%81%20t%E1%BB%95%20ch%E1%BB%A9c%20m%C3%A3%20ngu%E1%BB%93n.md</a>
 
 ## TÀI LIỆU CHO NHÀ PHÁT TRIỂN
+
+<li>Nội dung chi tiết</li>
 
 <a>https://github.com/WebSiteQuanLy/QuanLyKyTucXa/blob/master/T%C3%A0i%20li%E1%BB%87u%20cho%20nh%C3%A0%20ph%C3%A1t%20tri%E1%BB%83n.md</a>
 
 ## TÀI LIỆU CHO NGƯỜI SỬ DỤNG
 
+<li>Nội dung chi tiết</li>
+
 <a>https://github.com/WebSiteQuanLy/QuanLyKyTucXa/blob/master/T%C3%A0i%20li%E1%BB%87u%20cho%20nh%C3%A0%20ph%C3%A1t%20tri%E1%BB%83n.md</a>
 
 ## TÀI LIỆU THIẾT KẾ
 
+<li>Nội dung chi tiết</li>
+
 <a>https://github.com/WebSiteQuanLy/QuanLyKyTucXa/blob/master/Design.md</a>
 
-## KÊNH TRUYỀN THÔNG CHO DỰ ÁN 
+## KÊNH TRUYỀN THÔNG CHO DỰ ÁN
+
+<li>Nội dung chi tiết</li> 
 
 <a>https://github.com/WebSiteQuanLy/QuanLyKyTucXa/blob/master/K%C3%AAnh%20truy%E1%BB%81n%20th%C3%B4ng%20d%E1%BB%B1%20%C3%A1n.md</a>
 
