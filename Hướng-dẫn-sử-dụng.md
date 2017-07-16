@@ -3,6 +3,13 @@
 Phiên bản 1 phần mềm "Quản lý ký túc xá sinh viên Khánh Hòa"
 được xuất bản bởi Ngô Mậu Bảo & Nguyễn Thị Mỹ Linh.
 
+<ul>
+  <li>Cài đặt SQL Server 2012</li>
+  <li>Cài đặt Visual Studio 2013</li>
+  <li>Attach CSDL QLKTX vào SQL Server 2012 </li>
+  <li>Mở chương trình lên và thay đổi chuỗi kết nối đến CSDL trong file Datahelper.cs</li>
+</ul>
+
 ## CẤU TRÚC CỦA PHẦN MỀM 
 
 **PHẦN MỀM GỒM CÓ**
