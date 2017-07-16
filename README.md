@@ -90,5 +90,31 @@ giúp cho cán bộ quản lí nắm rõ thông tin cần thiết.
   <li>Tra cứu, thống kê kết quả,...</li>
 </ul>
 
+## GIẤY PHÉP CỦA DỰ ÁN
+
+<li>Nội dung chi tiết</li>
+
+<a>https://github.com/WebSiteQuanLy/QuanLyKyTucXa/blob/master/License.md</a>
+
+## THÔNG TIN TỔ CHỨC MÃ NGUỒN 
+
+<a>https://github.com/WebSiteQuanLy/QuanLyKyTucXa/blob/master/Th%C3%B4ng%20tin%20v%E1%BB%81%20t%E1%BB%95%20ch%E1%BB%A9c%20m%C3%A3%20ngu%E1%BB%93n.md</a>
+
+## TÀI LIỆU CHO NHÀ PHÁT TRIỂN
+
+<a>https://github.com/WebSiteQuanLy/QuanLyKyTucXa/blob/master/T%C3%A0i%20li%E1%BB%87u%20cho%20nh%C3%A0%20ph%C3%A1t%20tri%E1%BB%83n.md</a>
+
+## TÀI LIỆU CHO NGƯỜI SỬ DỤNG
+
+<a>https://github.com/WebSiteQuanLy/QuanLyKyTucXa/blob/master/T%C3%A0i%20li%E1%BB%87u%20cho%20nh%C3%A0%20ph%C3%A1t%20tri%E1%BB%83n.md</a>
+
+## TÀI LIỆU THIẾT KẾ
+
+<a>https://github.com/WebSiteQuanLy/QuanLyKyTucXa/blob/master/Design.md</a>
+
+## KÊNH TRUYỀN THÔNG CHO DỰ ÁN 
+
+<a>https://github.com/WebSiteQuanLy/QuanLyKyTucXa/blob/master/K%C3%AAnh%20truy%E1%BB%81n%20th%C3%B4ng%20d%E1%BB%B1%20%C3%A1n.md</a>
+
 <p align="center"><img src="http://file.hstatic.net/1000192210/product/upload_076262f72c1e4dd1a104b92aff2e5d01.jpg"></p>  
  **GOOKLUCK**
