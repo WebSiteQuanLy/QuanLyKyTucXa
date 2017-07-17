@@ -5,6 +5,9 @@ Sau khi đã kiểm nghiệm phần mềm "Quản lý ký túc xá sinh viên Kh
 
 Danh sách các lỗi:
 <ul>
+	<li> Bắt lỗi khi người dùng chưa nhập đúng user, pass </li>
+	<li> Bắt lỗi khi nhập trùng Mã SV</li>
+	<li> Bắt lỗi khi nhập điện nước </li>
 	<li> Thiết kế lỗi khi chọn hình sinh viên </li>
 	<li> Hiển thị hình ảnh bị lỗi khi chạy chương trình </li>
 	<li> Xử lý bắt lỗi còn chung chung.</li>
